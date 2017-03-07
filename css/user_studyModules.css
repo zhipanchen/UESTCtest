@@ -1,0 +1,683 @@
+﻿@media (min-width: 0px) and (max-width: 970px) {
+html{
+  font:40% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0 auto;
+  padding:0;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#fff;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:6px solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.content{
+    width:80%;
+    height:90%;
+    margin:0 auto;
+}
+.contentTitle{
+    font-size:1.5rem;
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    height:89%;
+    overflow:scroll;
+    background-color:white;
+    border-radius:10px;
+    -webkit-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    -moz-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    box-shadow: 0.5rem 0.5rem 0.5rem; 
+}
+.recordBox ul{
+    height:100%;
+    list-style:none;
+    padding:3% 0;
+    margin:0;
+}
+.recordBox ul li{
+    width:33%;
+    height:45%;
+    float:left;
+    margin:0 0 50px 0;
+}
+.testBox{
+    width:220px;
+    height:220px;
+    line-height:220px;
+    text-align: center;
+    background-color:#0054A3;
+    font-size:4rem;
+    color:#FFF;
+    display:block;
+    border-radius:15px;
+    margin:0 auto;
+}
+
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpPicture{
+    width:auto;
+    height:100%;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+}
+@media (min-width: 970px) and (max-width: 1170px) {
+html{
+  font:50% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0 auto;
+  padding:0;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#fff;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:6px solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.content{
+    width:80%;
+    height:90%;
+    margin:0 auto;
+}
+.contentTitle{
+    font-size:1.5rem;
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    height:89%;
+    overflow:scroll;
+    background-color:white;
+    border-radius:10px;
+    -webkit-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    -moz-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    box-shadow: 0.5rem 0.5rem 0.5rem; 
+}
+.recordBox ul{
+    height:100%;
+    list-style:none;
+    padding:3% 0;
+    margin:0;
+}
+.recordBox ul li{
+    width:33%;
+    height:45%;
+    float:left;
+    margin:0 0 50px 0;
+}
+.testBox{
+    width:220px;
+    height:220px;
+    line-height:220px;
+    text-align: center;
+    background-color:#0054A3;
+    font-size:4rem;
+    color:#FFF;
+    display:block;
+    border-radius:15px;
+    margin:0 auto;
+}
+
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpPicture{
+    width:auto;
+    height:100%;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+}
+@media (min-width: 1170px) and (max-width: 1440px) {
+html{
+  font:62.5% "Microsoft Yahei";
+}
+html{
+  font:62.5% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0 auto;
+  padding:0;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#fff;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:6px solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.content{
+    width:80%;
+    height:90%;
+    margin:0 auto;
+}
+.contentTitle{
+    font-size:1.5rem;
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    height:89%;
+    overflow:scroll;
+    background-color:white;
+    border-radius:10px;
+    -webkit-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    -moz-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    box-shadow: 0.5rem 0.5rem 0.5rem; 
+}
+.recordBox ul{
+    height:100%;
+    list-style:none;
+    padding:3% 0;
+    margin:0;
+}
+.recordBox ul li{
+    width:33%;
+    height:45%;
+    float:left;
+    margin:0 0 50px 0;
+}
+.testBox{
+    width:220px;
+    height:220px;
+    line-height:220px;
+    text-align: center;
+    background-color:#0054A3;
+    font-size:4rem;
+    color:#FFF;
+    display:block;
+    border-radius:15px;
+    margin:0 auto;
+}
+
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpPicture{
+    width:auto;
+    height:100%;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+}
+@media (min-width: 1440px) and (max-width: 3000px) {
+html{
+  font:70% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0 auto;
+  padding:0;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#fff;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:6px solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.content{
+    width:80%;
+    height:90%;
+    margin:0 auto;
+}
+.contentTitle{
+    font-size:1.5rem;
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    height:89%;
+    overflow:scroll;
+    background-color:white;
+    border-radius:10px;
+    -webkit-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    -moz-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    box-shadow: 0.5rem 0.5rem 0.5rem; 
+}
+.recordBox ul{
+    height:100%;
+    list-style:none;
+    padding:3% 0;
+    margin:0;
+}
+.recordBox ul li{
+    width:33%;
+    height:45%;
+    float:left;
+    margin:0 0 50px 0;
+}
+.testBox{
+    width:220px;
+    height:220px;
+    line-height:220px;
+    text-align: center;
+    background-color:#0054A3;
+    font-size:4rem;
+    color:#FFF;
+    display:block;
+    border-radius:15px;
+    margin:0 auto;
+}
+
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpPicture{
+    width:auto;
+    height:100%;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+}

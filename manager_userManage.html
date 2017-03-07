@@ -1,0 +1,79 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户管理</title>
+<link type="text/css" rel="stylesheet" href="css/manager_userManage.css"></link>
+</head>
+<body>
+<div class="allPage">
+    <!--pageHeader(star)***************************************************************************-->
+    <div class="pageHeader">
+        <img class="titlePicture" src="image/login_title.png"/>
+        <span class="managerName"></span>
+        <img class="managerPicture" src="image/grade_manager.png"/>
+    </div>
+    <!--pageHeader(end)***************************************************************************-->
+
+    <!--pageBody(star)*****************************************************************************-->
+    <div class="pageBody">
+        <div class="navagation">
+            <ul class="navagationUl">
+                <li><a href="manager_studyModules.html"><img class="navagationPicture" src="image/grade_manage_navagation3.png"/><span>学习资料管理</span></a></li>
+                <li><a href="manager_testlModules.html"><img class="navagationPicture" src="image/grade_manage_navagation2.png"/><span>题库管理</span></a></li>
+                <li><a href="manager_history.html"><img class="navagationPicture" src="image/grade_manage_navagation5.png"/><span id="x1">成绩管理/历史记录</span></a></li>
+                <li><a href="manager_userManage.html"><img class="navagationPicture" src="image/grade_manage_navagation4.png"/><span>用户管理</span></a></li>
+                <li><a href="manager_center.html"><img class="navagationPicture" src="image/grade_manage_navagation1.png"/><span>个人中心</span></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <span class="contentTitle">你所在的位置:用户管理</span>
+            <div class="recordBox">
+                <span>学号：</span><input type="text" value="" class="inputStyle" id="searchText"/>
+                <label class="operationAction" id="searchButton">用户查询</label>
+                <label class="operationAction1">批量删除</label>
+            </div>
+            <div class="subrecordBox">
+                <table class="tableStyle">
+                    <thead>
+                        <tr><th><input type="checkbox" value="" class="checkStyle"/><span class="checkTitle">全选</span></th><th>序号</th><th>学号</th><th>真实姓名</th><th>手机号码</th><th>操作</th></tr> 
+                    </thead>
+                    <tbody id="tableBox">
+                        <!--tr><td><input type="checkbox" value="" class="checkStyle"/></td><td>1</td><td>2014220701023</td><td>张三</td><td>13402813125</td><td class="operation"-->
+                        <!--div class="operationdiv"><span>历史记录</span><span>详细资料</span><span>添加角色</span><span>删除</span></div></td></tr-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--pagepageBody(end)***************************************************************************-->
+
+    <!--pageFloot(star)*****************************************************************************-->
+    <div class="pageFloot"> 
+        <div class="FlootUp">  
+            <img class="FlootUpPicture" src="image/login_flootup.png"/>
+            <span class="FlootUpText">用户管理</span>
+        </div>
+        <div class="FlootDown">
+            <img class="FlootDownPicture" src="image/login_flootdown.png"/>
+        </div>
+    </div>
+    <!--pageFloot(end)*****************************************************************************-->
+    <div class="personInformation">
+        <div class="informationBoxLeft">
+            <img src="image/photo.png" class="personPicture" id="personPicture"/>
+        </div>
+        <div class="informationBoxRight">
+            <div><span class="wordStyle">姓名：</span><span class="wordStyle" id="name"></span></div>
+            <div><span class="wordStyle">学号：</span><span class="wordStyle" id="studyNumber"></span></div>
+            <div><span class="wordStyle">电子邮件：</span><span class="wordStyle" id="email"></span></div>
+            <div><span class="wordStyle">手机号码：</span><span class="wordStyle" id="phongNumber"></span></div>
+            <div><span class="getBackButton">返回</span></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/manager_userManage.js"></script>
+</body>
+</html>

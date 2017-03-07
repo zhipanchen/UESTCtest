@@ -1,0 +1,65 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户注册</title>
+<link type="text/css" rel="stylesheet" href="css/user_register.css"></link>
+</head>
+<body>
+<div class="allPage">
+    <!--pageHeader(star)***************************************************************************-->
+    <div class="pageHeader">
+        <img class="titlePicture" src="image/login_title.png"/>
+    </div>
+    <!--pageHeader(end)***************************************************************************-->
+
+    <!--pageBody(star)*****************************************************************************-->
+    <div class="pageBody">
+        <div class="loginBox" id="textBox">
+            <span class="boxTitle">新用户注册</span>
+            <hr class="lineStyle"/>
+            <ul class="registerGroup">
+                <li class="liStyle1"><label class="redSign">*</label><span class="textStyle">账号:</span><input type="text" value="" class="inputStyle"  id="username"/></li>
+                <span class="elseText" id="nameText">还没想好规则啦</span>
+                <li class="liStyle1"><label class="redSign">*</label><span class="textStyle">密码:</span><input type="password" value="" class="inputStyle" id="password"/></li>
+                <span class="elseText">6-16个字符（区分大小写）</span>
+                <li class="liStyle1"><label class="redSign">*</label><span class="textStyle">确认密码:</span><input type="password" value="" class="inputStyle" id="surePassword"/></li>
+                <span class="elseText" id="passwordAgin">请输入一遍密码</span>
+                <li class="liStyle2"><label class="redSign">*</label><span class="textStyle">真实姓名:</span><input type="text" value="" class="inputStyle" id="realName"/></li>
+                <li class="liStyle2"><label class="redSign">*</label><span class="textStyle">学号:</span><input type="text" value="" class="inputStyle" id="studentNumber"/></li>
+                <li class="liStyle1"><label class="redSign">*</label><span class="textStyle">电子邮件:</span><input type="email" value="" class="inputStyle" id="email"/></li>
+                <span class="elseText" id="emailText">电子邮件</span>
+                <li class="liStyle2"><label class="redSign">&nbsp;</label><span class="textStyle">手机号码:</span><input type="tel" value="" class="inputStyle" id="phoneNumber"/></li>
+            </ul>
+            <label class="redSignSpecial">*</label><span class="elseTextSpecial">为必填信息</span>
+            <!-- 模态框触发器） -->
+            <input type="button" value="完成注册" class="registerButton" id="finishButton"/>
+            <!-- 模态框触发器） -->
+        </div>
+    </div>
+    <!--pagepageBody(end)***************************************************************************-->
+
+    <!--pageFloot(star)*****************************************************************************-->
+    <div class="pageFloot"> 
+        <div class="FlootUp">  
+            <img class="FlootUpPicture" src="image/login_flootup.png"/>
+            <span class="FlootUpText">考试系统注册</span>
+        </div>
+        <div class="FlootDown">
+            <img class="FlootDownPicture" src="image/login_flootdown.png"/>
+        </div>
+    </div>
+    <!--pageFloot(end)*****************************************************************************-->
+    <div id="dialogBox">
+        <div class="dialog">
+        </div>
+        <div class="dialogInformation" id="floatBox">
+            <span class="success">注册成功。</span>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/user_register.js"></script>
+</body>
+</html>

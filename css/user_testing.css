@@ -1,0 +1,1785 @@
+﻿@media (min-width: 0px) and (max-width: 970px) {
+html{
+  font:40% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#1B78BC;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.titleline{
+    width:90%;
+    border-top:2px dashed #000;
+}
+.questionline{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.noLine{
+    width:0.1%;
+    border-top:2px dashed #FFF;
+}
+.testQuestions{
+    margin:0 5%;
+}
+.questions{
+    font-size:2rem;
+}
+.answer{
+    font-size:2rem;
+    color:#165FAB;
+}
+.radioInput{
+    width:20px;
+    height:20px;
+    color:#165FAB;
+}
+.questionsChoose{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.questionsChoose li{
+    width:100%;
+    display:block;
+    float:left;
+}
+.content{
+    width:70%;
+    margin:0 auto;
+
+}
+.contentTitle{
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    padding-top:1%;
+    float:left;
+    background-color:white;
+}
+.boxTitle{
+    width:100%;
+    font-size:4rem;
+    margin-top:2%;
+    display:block;
+    text-align:center; 
+}
+.subtitle{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+}
+.fullMarks{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+    color:#0054A3;
+}
+.passingMarks{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+    color:red;
+}
+.subtitleBox{
+    margin-top:2%;
+    text-align:center;
+}
+.end{
+    font-size:3rem;
+    width:100%;
+    height:25%;
+    display:block;
+    text-align:center;
+    margin:10% 0 40px 0;
+    color:#0054A3;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.endLine{
+    width:70%;
+    border-top:2px dashed #000;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+
+/*floatBox(star)---------------------------------------------------------------*/
+.floatBox{
+    width:70%;
+    height:200px;
+    background-color:#959595;
+    position:fixed;
+    top:79%;
+    left:0;
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+.floatTitle{
+    height:4rem;
+    line-height:4rem;
+    margin-left:8rem;
+}
+.timer{
+    font-size:2rem;
+    text-align:center;
+}
+.time{
+    font-size:2rem;
+    text-align:center; 
+    color:red;
+}
+.table,.table tbody tr td{
+    BORDER-COLLAPSE: collapse;/*单实线表格*/
+    border:0.3rem solid #FFF;
+    text-align: center;/*文字居中*/
+}
+.table{
+    margin-left:0.8rem;
+    width:35%;
+    height:10%;
+    float:left;
+}
+.table tbody tr td{
+    color:white;
+    font-size:2rem;
+}
+.QuestionBox{
+    height:10%;
+    width:60%;
+    float:left;
+}
+.curQuestion{
+    height:3rem;
+    width:3rem;
+    background-color:#262626;
+    display:block;
+    float:left;
+    margin-left:5rem; 
+}
+.finishQuestion{
+    height:3rem;
+    width:3rem;
+    background-color:#0554A3;
+    display:block;
+    float:left;
+}
+.unfinshQuestion{
+    height:2.6rem;
+    width:2.6rem;
+    border:0.2rem solid #FFF;
+    display:block;
+    float:left;
+}
+.QuestionText{
+    font-size:2rem;
+    height:4rem;
+    line-height:4rem;
+    margin:0 5px;
+    display:block;
+    float:left;
+}
+.curruct{
+    background-color:#262626;
+}
+.passing{
+    background-color:#0554A3;
+}
+.submitButton{
+    height:20%;
+    width:13%;
+    font-size:1.7rem;
+    border-radius:5px;
+    background-color:#0554A3; 
+    color:white;
+    font-family:"Microsoft Yahei";
+    display:block;
+    margin:0 auto;
+    position:relative;
+    top:25%;
+    left:-15%;
+}
+
+/*floatBox(end)---------------------------------------------------------------*/
+#dialogBox{
+    width:100%;
+    height:400%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialog{
+    width:100%;
+    height:100%;
+    background-color:#323232;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.dialogInformation{
+    width:50rem;
+    height:20rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialogInformation1{
+    width:50rem;
+    height:25rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.boxTitle1{
+    font-size:3rem;
+    width:100%;
+    display:block;
+}
+.success{
+    font-size:2.5rem;
+    height:10rem;
+    line-height:10rem;
+    display:block;
+}
+
+.success1{
+    width:90%;
+    font-size:2.5rem;
+    height:3rem;
+    line-height:3rem;
+    display:block;
+    margin:4rem auto 0 auto;
+}
+.inputStyle{
+    border:0.2rem solid #000;
+    font-size:2.5rem;
+    border-radius:0.5rem;
+    outline: none;
+    width:25rem;
+    height:4.5rem;
+    margin-top:4rem;
+}
+.boxButton{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:1rem;
+    width:10rem;
+    height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+.boxButton1{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:8rem;
+    width:10rem;
+    height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+.boxButton2{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:1rem;
+    width:10rem;
+    height:4rem;
+    line-height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+#dialogBoxdelete{
+    width:100%;
+    height:400%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.contenteText{
+    font-size:2.5rem;
+    width:100%;
+    height:10rem;
+    line-height:10rem;
+    margin-top:1rem;
+    display:block;
+    float:left;
+}
+.redText{
+    color:red;
+}
+.questionPicture{
+    width:50%;
+    height:auto;
+    display:block;
+}
+}
+@media (min-width: 970px) and (max-width: 1170px) {
+html{
+  font:50% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#1B78BC;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.titleline{
+    width:90%;
+    border-top:2px dashed #000;
+}
+.questionline{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.noLine{
+    width:0.1%;
+    border-top:2px dashed #FFF;
+}
+.testQuestions{
+    margin:0 5%;
+}
+.questions{
+    font-size:2rem;
+}
+.answer{
+    font-size:2rem;
+    color:#165FAB;
+}
+.radioInput{
+    width:20px;
+    height:20px;
+    color:#165FAB;
+}
+.questionsChoose{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.questionsChoose li{
+    width:100%;
+    display:block;
+    float:left;
+}
+.content{
+    width:70%;
+    margin:0 auto;
+
+}
+.contentTitle{
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    padding-top:1%;
+    float:left;
+    background-color:white;
+}
+.boxTitle{
+    width:100%;
+    font-size:4rem;
+    margin-top:2%;
+    display:block;
+    text-align:center; 
+}
+.subtitle{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+}
+.fullMarks{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+    color:#0054A3;
+}
+.passingMarks{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+    color:red;
+}
+.subtitleBox{
+    margin-top:2%;
+    text-align:center;
+}
+.end{
+    font-size:3rem;
+    width:100%;
+    height:25%;
+    display:block;
+    text-align:center;
+    margin:10% 0 40px 0;
+    color:#0054A3;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.endLine{
+    width:70%;
+    border-top:2px dashed #000;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+
+/*floatBox(star)---------------------------------------------------------------*/
+.floatBox{
+    width:70%;
+    height:200px;
+    background-color:#959595;
+    position:fixed;
+    top:79%;
+    left:0;
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+.floatTitle{
+    height:4rem;
+    line-height:4rem;
+    margin-left:8rem;
+}
+.timer{
+    font-size:2rem;
+    text-align:center;
+}
+.time{
+    font-size:2rem;
+    text-align:center; 
+    color:red;
+}
+.table,.table tbody tr td{
+    BORDER-COLLAPSE: collapse;/*单实线表格*/
+    border:0.3rem solid #FFF;
+    text-align: center;/*文字居中*/
+}
+.table{
+    margin-left:0.8rem;
+    width:35%;
+    height:10%;
+    float:left;
+}
+.table tbody tr td{
+    color:white;
+    font-size:2rem;
+}
+.QuestionBox{
+    height:10%;
+    width:60%;
+    float:left;
+}
+.curQuestion{
+    height:3rem;
+    width:3rem;
+    background-color:#262626;
+    display:block;
+    float:left;
+    margin-left:5rem; 
+}
+.finishQuestion{
+    height:3rem;
+    width:3rem;
+    background-color:#0554A3;
+    display:block;
+    float:left;
+}
+.unfinshQuestion{
+    height:2.6rem;
+    width:2.6rem;
+    border:0.2rem solid #FFF;
+    display:block;
+    float:left;
+}
+.QuestionText{
+    font-size:2rem;
+    height:4rem;
+    line-height:4rem;
+    margin:0 5px;
+    display:block;
+    float:left;
+}
+.curruct{
+    background-color:#262626;
+}
+.passing{
+    background-color:#0554A3;
+}
+.submitButton{
+    height:20%;
+    width:13%;
+    font-size:1.7rem;
+    border-radius:5px;
+    background-color:#0554A3; 
+    color:white;
+    font-family:"Microsoft Yahei";
+    display:block;
+    margin:0 auto;
+    position:relative;
+    top:25%;
+    left:-15%;
+}
+
+/*floatBox(end)---------------------------------------------------------------*/
+#dialogBox{
+    width:100%;
+    height:400%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialog{
+    width:100%;
+    height:100%;
+    background-color:#323232;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.dialogInformation{
+    width:50rem;
+    height:20rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialogInformation1{
+    width:50rem;
+    height:25rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.boxTitle1{
+    font-size:3rem;
+    width:100%;
+    display:block;
+}
+.success{
+    font-size:2.5rem;
+    height:10rem;
+    line-height:10rem;
+    display:block;
+}
+.success1{
+    width:90%;
+    font-size:2.5rem;
+    height:3rem;
+    line-height:3rem;
+    display:block;
+    margin:4rem auto 0 auto;
+}
+.inputStyle{
+    border:0.2rem solid #000;
+    font-size:2.5rem;
+    border-radius:0.5rem;
+    outline: none;
+    width:25rem;
+    height:4.5rem;
+    margin-top:4rem;
+}
+.boxButton{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:1rem;
+    width:10rem;
+    height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+.boxButton1{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:8rem;
+    width:10rem;
+    height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+.boxButton2{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:1rem;
+    width:10rem;
+    height:4rem;
+    line-height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+#dialogBoxdelete{
+    width:100%;
+    height:400%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.contenteText{
+    font-size:2.5rem;
+    width:100%;
+    height:10rem;
+    line-height:10rem;
+    margin-top:1rem;
+    display:block;
+    float:left;
+}
+.redText{
+    color:red;
+}
+.questionPicture{
+    width:50%;
+    height:auto;
+    display:block;
+}
+}
+@media (min-width: 1170px) and (max-width: 1440px) {
+html{
+  font:62.5% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#1B78BC;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.titleline{
+    width:90%;
+    border-top:2px dashed #000;
+}
+.questionline{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.noLine{
+    width:0.1%;
+    border-top:2px dashed #FFF;
+}
+.testQuestions{
+    margin:0 5%;
+}
+.questions{
+    font-size:2rem;
+}
+.answer{
+    font-size:2rem;
+    color:#165FAB;
+}
+.radioInput{
+    width:20px;
+    height:20px;
+    color:#165FAB;
+}
+.questionsChoose{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.questionsChoose li{
+    width:100%;
+    display:block;
+    float:left;
+}
+.content{
+    width:70%;
+    margin:0 auto;
+
+}
+.contentTitle{
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    padding-top:1%;
+    float:left;
+    background-color:white;
+}
+.boxTitle{
+    width:100%;
+    font-size:4rem;
+    margin-top:2%;
+    display:block;
+    text-align:center; 
+}
+.subtitle{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+}
+.fullMarks{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+    color:#0054A3;
+}
+.passingMarks{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+    color:red;
+}
+.subtitleBox{
+    margin-top:2%;
+    text-align:center;
+}
+.end{
+    font-size:3rem;
+    width:100%;
+    height:25%;
+    display:block;
+    text-align:center;
+    margin:10% 0 40px 0;
+    color:#0054A3;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.endLine{
+    width:70%;
+    border-top:2px dashed #000;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+
+/*floatBox(star)---------------------------------------------------------------*/
+.floatBox{
+    width:70%;
+    height:200px;
+    background-color:#959595;
+    position:fixed;
+    top:79%;
+    left:0;
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+.floatTitle{
+    height:4rem;
+    line-height:4rem;
+    margin-left:8rem;
+}
+.timer{
+    font-size:2rem;
+    text-align:center;
+}
+.time{
+    font-size:2rem;
+    text-align:center; 
+    color:red;
+}
+.table,.table tbody tr td{
+    BORDER-COLLAPSE: collapse;/*单实线表格*/
+    border:0.3rem solid #FFF;
+    text-align: center;/*文字居中*/
+}
+.table{
+    margin-left:0.8rem;
+    width:35%;
+    height:10%;
+    float:left;
+}
+.table tbody tr td{
+    color:white;
+    font-size:2rem;
+}
+.QuestionBox{
+    height:10%;
+    width:60%;
+    float:left;
+}
+.curQuestion{
+    height:3rem;
+    width:3rem;
+    background-color:#262626;
+    display:block;
+    float:left;
+    margin-left:5rem; 
+}
+.finishQuestion{
+    height:3rem;
+    width:3rem;
+    background-color:#0554A3;
+    display:block;
+    float:left;
+}
+.unfinshQuestion{
+    height:2.6rem;
+    width:2.6rem;
+    border:0.2rem solid #FFF;
+    display:block;
+    float:left;
+}
+.QuestionText{
+    font-size:2rem;
+    height:4rem;
+    line-height:4rem;
+    margin:0 5px;
+    display:block;
+    float:left;
+}
+.curruct{
+    background-color:#262626;
+}
+.passing{
+    background-color:#0554A3;
+}
+.submitButton{
+    height:20%;
+    width:13%;
+    font-size:1.7rem;
+    border-radius:5px;
+    background-color:#0554A3; 
+    color:white;
+    font-family:"Microsoft Yahei";
+    display:block;
+    margin:0 auto;
+    position:relative;
+    top:25%;
+    left:-15%;
+}
+
+/*floatBox(end)---------------------------------------------------------------*/
+#dialogBox{
+    width:100%;
+    height:400%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialog{
+    width:100%;
+    height:100%;
+    background-color:#323232;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.dialogInformation{
+    width:50rem;
+    height:20rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialogInformation1{
+    width:50rem;
+    height:25rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.boxTitle1{
+    font-size:3rem;
+    width:100%;
+    display:block;
+}
+.success{
+    font-size:2.5rem;
+    height:10rem;
+    line-height:10rem;
+    display:block;
+}
+.success1{
+    width:90%;
+    font-size:2.5rem;
+    height:3rem;
+    line-height:3rem;
+    display:block;
+    margin:4rem auto 0 auto;
+}
+.inputStyle{
+    border:0.2rem solid #000;
+    font-size:2.5rem;
+    border-radius:0.5rem;
+    outline: none;
+    width:25rem;
+    height:4.5rem;
+    margin-top:4rem;
+}
+.boxButton{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:1rem;
+    width:10rem;
+    height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+.boxButton1{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:8rem;
+    width:10rem;
+    height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+.boxButton2{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:1rem;
+    width:10rem;
+    height:4rem;
+    line-height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+#dialogBoxdelete{
+    width:100%;
+    height:400%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.contenteText{
+    font-size:2.5rem;
+    width:100%;
+    height:10rem;
+    line-height:10rem;
+    margin-top:1rem;
+    display:block;
+    float:left;
+}
+.redText{
+    color:red;
+}
+.questionPicture{
+    width:50%;
+    height:auto;
+    display:block;
+}
+}
+@media (min-width: 1440px) and (max-width: 3000px) {
+html{
+  font:70% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#1B78BC;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.titleline{
+    width:90%;
+    border-top:2px dashed #000;
+}
+.questionline{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.noLine{
+    width:0.1%;
+    border-top:2px dashed #FFF;
+}
+.testQuestions{
+    margin:0 5%;
+}
+.questions{
+    font-size:2rem;
+}
+.answer{
+    font-size:2rem;
+    color:#165FAB;
+}
+.radioInput{
+    width:20px;
+    height:20px;
+    color:#165FAB;
+}
+.questionsChoose{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.questionsChoose li{
+    width:100%;
+    display:block;
+    float:left;
+}
+.content{
+    width:70%;
+    margin:0 auto;
+
+}
+.contentTitle{
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    padding-top:1%;
+    float:left;
+    background-color:white;
+}
+.boxTitle{
+    width:100%;
+    font-size:4rem;
+    margin-top:2%;
+    display:block;
+    text-align:center; 
+}
+.subtitle{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+}
+.fullMarks{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+    color:#0054A3;
+}
+.passingMarks{
+    width:100%;
+    font-size:2rem;
+    text-align:center; 
+    color:red;
+}
+.subtitleBox{
+    margin-top:2%;
+    text-align:center;
+}
+.end{
+    font-size:3rem;
+    width:100%;
+    height:25%;
+    display:block;
+    text-align:center;
+    margin:10% 0 40px 0;
+    color:#0054A3;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.endLine{
+    width:70%;
+    border-top:2px dashed #000;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+
+/*floatBox(star)---------------------------------------------------------------*/
+.floatBox{
+    width:70%;
+    height:200px;
+    background-color:#959595;
+    position:fixed;
+    top:79%;
+    left:0;
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+.floatTitle{
+    height:4rem;
+    line-height:4rem;
+    margin-left:8rem;
+}
+.timer{
+    font-size:2rem;
+    text-align:center;
+}
+.time{
+    font-size:2rem;
+    text-align:center; 
+    color:red;
+}
+.table,.table tbody tr td{
+    BORDER-COLLAPSE: collapse;/*单实线表格*/
+    border:0.3rem solid #FFF;
+    text-align: center;/*文字居中*/
+}
+.table{
+    margin-left:0.8rem;
+    width:35%;
+    height:10%;
+    float:left;
+}
+.table tbody tr td{
+    color:white;
+    font-size:2rem;
+}
+.QuestionBox{
+    height:10%;
+    width:60%;
+    float:left;
+}
+.curQuestion{
+    height:3rem;
+    width:3rem;
+    background-color:#262626;
+    display:block;
+    float:left;
+    margin-left:5rem; 
+}
+.finishQuestion{
+    height:3rem;
+    width:3rem;
+    background-color:#0554A3;
+    display:block;
+    float:left;
+}
+.unfinshQuestion{
+    height:2.6rem;
+    width:2.6rem;
+    border:0.2rem solid #FFF;
+    display:block;
+    float:left;
+}
+.QuestionText{
+    font-size:2rem;
+    height:4rem;
+    line-height:4rem;
+    margin:0 5px;
+    display:block;
+    float:left;
+}
+.curruct{
+    background-color:#262626;
+}
+.passing{
+    background-color:#0554A3;
+}
+.submitButton{
+    height:20%;
+    width:13%;
+    font-size:1.7rem;
+    border-radius:5px;
+    background-color:#0554A3; 
+    color:white;
+    font-family:"Microsoft Yahei";
+    display:block;
+    margin:0 auto;
+    position:relative;
+    top:25%;
+    left:-15%;
+}
+
+/*floatBox(end)---------------------------------------------------------------*/
+#dialogBox{
+    width:100%;
+    height:400%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialog{
+    width:100%;
+    height:100%;
+    background-color:#323232;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.dialogInformation{
+    width:50rem;
+    height:20rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialogInformation1{
+    width:50rem;
+    height:25rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius: 1rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.boxTitle1{
+    font-size:3rem;
+    width:100%;
+    display:block;
+}
+.success{
+    font-size:2.5rem;
+    height:10rem;
+    line-height:10rem;
+    display:block;
+}
+.success1{
+    width:90%;
+    font-size:2.5rem;
+    height:3rem;
+    line-height:3rem;
+    display:block;
+    margin:4rem auto 0 auto;
+}
+.inputStyle{
+    border:0.2rem solid #000;
+    font-size:2.5rem;
+    border-radius:0.5rem;
+    outline: none;
+    width:25rem;
+    height:4.5rem;
+    margin-top:4rem;
+}
+.boxButton{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:1rem;
+    width:10rem;
+    height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+.boxButton1{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:8rem;
+    width:10rem;
+    height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+.boxButton2{
+    font-family:"Microsoft Yahei";
+    display:block;
+    float:left;
+    margin-left:10rem;
+    margin-top:1rem;
+    width:10rem;
+    height:4rem;
+    line-height:4rem;
+    font-size:2rem;
+    background-color:#0054A3;
+    color:white;
+    border-radius: 0.5rem;
+}
+#dialogBoxdelete{
+    width:100%;
+    height:400%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.contenteText{
+    font-size:2.5rem;
+    width:100%;
+    height:10rem;
+    line-height:10rem;
+    margin-top:1rem;
+    display:block;
+    float:left;
+}
+.redText{
+    color:red;
+}
+.questionPicture{
+    width:50%;
+    height:auto;
+    display:block;
+}
+}

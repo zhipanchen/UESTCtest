@@ -1,0 +1,126 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>题库管理</title>
+<link type="text/css" rel="stylesheet" href="css/manager_testlModulesManage.css"></link>
+</head>
+<body>
+<div class="allPage">
+    <!--pageHeader(star)***************************************************************************-->
+    <div class="pageHeader">
+        <img class="titlePicture" src="image/login_title.png"/>
+        <span class="managerName"></span>
+        <img class="managerPicture" src="image/grade_manager.png"/>
+    </div>
+    <!--pageHeader(end)***************************************************************************-->
+
+    <!--pageBody(star)*****************************************************************************-->
+    <div class="pageBody">
+        <div class="navagation">
+            <ul class="navagationUl">
+                <li><a href="manager_studyModules.html"><img class="navagationPicture" src="image/grade_manage_navagation3.png"/><span>学习资料管理</span></a></li>
+                <li><a href="manager_testlModules.html"><img class="navagationPicture" src="image/grade_manage_navagation2.png"/><span>题库管理</span></a></li>
+                <li><a href="manager_history.html"><img class="navagationPicture" src="image/grade_manage_navagation5.png"/><span id="x1">成绩管理/历史记录</span></a></li>
+                <li><a href="manager_userManage.html"><img class="navagationPicture" src="image/grade_manage_navagation4.png"/><span>用户管理</span></a></li>
+                <li><a href="manager_center.html"><img class="navagationPicture" src="image/grade_manage_navagation1.png"/><span>个人中心</span></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <span class="contentTitle">你所在的位置:题库管理><span id="subjectName"></span></span>
+            <div class="recordBox">
+                <span>题目信息：</span><input type="text" value="" class="inputStyle" id="searchInformation"/>
+                <label class="operationAction" id="searchButton">查询</label>
+                <label class="operationAction" id="used">启用</label>
+                <label class="operationAction" id="unused">禁用</label>
+                <label class="operationAction1" id="addingQuestion">添加试题</label>
+            </div>
+            <div class="subrecordBox">
+                <table class="tableStyle">
+                    <thead>
+                        <tr><th>题号</th><th>部分试题内容</th><th>答案</th><th>操作</th></tr> 
+                    </thead>
+                    <tbody id="tableBody">
+                        <!--tr><td><input type="checkbox" value="" class="checkStyle"/></td><td>1</td><td>用某种仪器量取液体体积时，平时刻度</td><td>C</td>
+                        <td class="operation"><div class="operationdiv"><span id="edit1">编辑</span><span>删除</span></div></td></tr-->
+                    </tbody>
+                </table>
+                <div class="pageBoxGroup">
+                    <span class="pageBox1">首页</span>
+                    <span class="pageContent">
+                        <span class="pageBox" id='one' name="1">1</span>
+                        <span class="pageBox" id="two" name="2">2</span>
+                        <span class="pageBox" id="three" name="3">3</span>
+                        <span class="pageBox" id="four" name="4">4</span>
+                        <span class="pageBox" id="five" name="5">5</span>
+                    </span>
+                    <span class="pageBox1">末页</span>
+                    <span class="pageBox1">本页/总页数：<span id="currentPage">1</span><span>/</span><span id="totalPage">9</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--pagepageBody(end)***************************************************************************-->
+
+    <!--pageFloot(star)*****************************************************************************-->
+    <div class="pageFloot"> 
+        <div class="FlootUp">  
+            <img class="FlootUpPicture" src="image/login_flootup.png"/>
+            <span class="FlootUpText">题库管理</span>
+        </div>
+        <div class="FlootDown">
+            <img class="FlootDownPicture" src="image/login_flootdown.png"/>
+        </div>
+    </div>
+    <!--pageFloot(end)*****************************************************************************-->
+    <div id="dialogBox">
+        <div class="dialog">
+        </div>
+        <form action="php/manager_testModulesManage_add_data.php" method="post" name="form1" id="form1" enctype="multipart/form-data">
+        <input type="text" name="subjectid" style="display: none" id="subjectid"/>
+        <input type="text" name="questionscore" value="1" style="display: none" id="questionscore"/>
+        <input type="text" name="questionid" style="display: none" id="questionid">
+        <div class="dialogInformation1" id="dialogPoints">
+            <div class="boxhead">
+                <span class="boxTitle1">题库管理>编辑试题</span>
+                <span class="closeButton" id="closeButton">X</span>
+            </div><br/>
+            <div class="dialogContent">
+                <div class="headdiv">
+                    <span class="spanS">题目图片添加:</span>
+                    <input type="file" name="question"/>
+                </div>
+                <span class="spanStylesx">题目：</span><br/>
+                <div class="question"><textarea name="questioninfo" cols="51" rows="40" class="textarea"></textarea></div>
+                <div>
+                <table class="questionTable">
+                    <thead>
+                        <tr><th></th><th>选项</th><th>图片</th><th><sapn>答案</sapn></th></tr> 
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="blod">A</span></td><td><input type="text" value="" class="chooseInput" name="questionchoicea"/></td><td><input type="file" name="a"/></td><td><input type="checkbox" class="checkStyle" name="A"/></td></tr>
+                        <tr><td><span class="blod">B</span></td><td><input type="text" value="" class="chooseInput" name="questionchoiceb"/></td><td><input type="file" name="b"/></td><td><input type="checkbox" class="checkStyle" name="B"/></td></tr>
+                        <tr><td><span class="blod">C</span></td><td><input type="text" value="" class="chooseInput" name="questionchoicec"/></td><td><input type="file" name="c"/></td><td><input type="checkbox" class="checkStyle" name="C"/></td></tr>
+                        <tr><td><span class="blod">D</span></td><td><input type="text" value="" class="chooseInput" name="questionchoiced"/></td><td><input type="file" name="d"/></td><td><input type="checkbox" class="checkStyle" name="D"/></td></tr>
+                    </tbody>
+                </table>
+                </div>
+                <div class="headdiv">
+                    <span class="spanS">解析图片添加:</span>
+                    <input type="file" name="note"/>
+                </div>
+                <span class="spanStylesx">试题解析:</span><br/>
+                <div class="answer"><textarea name="questionnote" cols="51" rows="40" class="textarea"></textarea></div>
+            </div>
+            <input type="button" value="取消" class="boxButton1" id="submitCancel"/>
+            <input type="button" value="保存" class="boxButton2" id="submitSure"/>
+        </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.form.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/manager_testlModulesManage.js"></script>
+</body>
+</html>

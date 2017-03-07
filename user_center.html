@@ -1,0 +1,91 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>学生个人中心</title>
+<link type="text/css" rel="stylesheet" href="css/user_center.css"></link>
+</head>
+<body>
+<div class="allPage">
+    <!--pageHeader(star)***************************************************************************-->
+    <div class="pageHeader">
+        <img class="titlePicture" src="image/login_title.png"/>
+        <span class="name"></span>
+        <img class="managerPicture" src="image/online_study_student.png"/>
+    </div>
+    <!--pageHeader(end)***************************************************************************-->
+
+    <!--pageBody(star)*****************************************************************************-->
+    <div class="pageBody">
+        <div class="navagation">
+            <ul class="navagationUl">
+                <li><a href="user_studyModules.html"><img class="navagationPicture" src="image/online_study.png"/><span>在线学习</span></a></li>
+                <li><a href="user_testModules.html"><img class="navagationPicture" src="image/online_homework.png"/><span>在线答题</span></a></li>
+                <li><a href="user_history.html"><img class="navagationPicture" src="image/online_history.png"/><span>成绩管理/历史记录</span></a></li>
+                <li><a href="user_center.html"><img class="navagationPicture" src="image/grade_manage_navagation1.png"/><span>个人中心</span></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <span class="contentTitle">你所在的位置:个人中心</span>
+            <div class="recordBox">
+                <br/>
+
+                <div>
+                <span class="rightBoxTitle">个人资料</span>
+                <hr class="titleline"/> 
+                <div class="personInformation">
+                    <ul>
+                        <li><span class="testBox">用户名：</span><span class="testBox" id="userName"></span></li>
+                        <li><span class="testBox">真实姓名：</span><span class="testBox" id="userRealName"></span></li>
+                        <li><span class="testBox">学号：</span><span class="testBox" id="userNumber"></span></li>
+                        <li><span class="testBox">电子邮箱：</span><span class="testBox" id="userEmail"></span></li>
+                        <li><span class="testBox">电话：</span><span class="testBox" id="userPhoneNumber"></span></li>
+                    </ul>
+                    <div class="personPhoto">
+                        <form action="php/center_upload_phto.php" method="post" name="form1" id="form1" enctype="multipart/form-data">
+                        <img src="image/photo.png" class="image" id="userPicture"/>
+                        <input type="File" name="photo"/>
+                        <input type="text" name="userid" id="userid" value="" style="display: none"/>
+                        <input type="button" value="上传头像" class="updataButton" id="updateButton"/>  
+                        </form>  
+                    </div> 
+                </div>
+                </div>
+
+                <div >
+                <span class="rightBoxTitle">修改密码</span>
+                <hr class="titleline"/>
+                <div class="changPassword">
+                    <ul>
+                        <li><span class="testBox">当前密码：</span><input type="text" value="" class="inputStyle" id="oldPassword"/></li>
+                        <li><span class="testBox">新设密码：</span><input type="password" value="" class="inputStyle" id="newPassword"/></li>
+                        <li><span class="testBox">确认密码：</span><input type="password" value="" class="inputStyle" id="newPasswordAgain"/></li>
+                        <li><input type="submit" value="确定" class="sureButton"/ id="changPasswordButton"></li>
+                    </ul>
+                </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--pagepageBody(end)***************************************************************************-->
+
+    <!--pageFloot(star)*****************************************************************************-->
+    <div class="pageFloot"> 
+        <div class="FlootUp">  
+            <img class="FlootUpPicture" src="image/login_flootup.png"/>
+            <span class="FlootUpText">学生个人中心</span>
+        </div>
+        <div class="FlootDown">
+            <img class="FlootDownPicture" src="image/login_flootdown.png"/>
+        </div>
+    </div>
+    <!--pageFloot(end)*****************************************************************************-->
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script src="http://malsup.github.io/min/jquery.form.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/user_center.js"></script>
+</body>
+</html>

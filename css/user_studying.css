@@ -1,0 +1,827 @@
+﻿@media (min-width: 0px) and (max-width: 970px) {
+html{
+  font:40% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#1B78BC;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.titleline{
+    width:90%;
+    border-top:2px dashed #000;
+}
+.questionline{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.noLine{
+    width:0.1%;
+    border-top:2px dashed #FFF;
+}
+.testQuestions{
+    margin:0 5%;
+}
+.questions{
+    font-size:2rem;
+}
+.answer{
+    font-size:2rem;
+    color:#165FAB;
+}
+.radioInput{
+    width:2rem;
+    height:2rem;
+    color:#165FAB;
+}
+.questionsChoose{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.questionsChoose li{
+    width:100%;
+    display:block;
+    float:left;
+}
+.content{
+    width:70%;
+    margin:0 auto;
+}
+.contentTitle{
+    font-size:2rem;
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    padding-top:1%;
+    float:left;
+    background-color:white;
+}
+.boxTitle{
+    width:100%;
+    font-size:3rem;
+    margin-top:2%;
+    display:block;
+    text-align:center; 
+}
+.subtitleBox{
+    margin-top:2%;
+    text-align:center;
+}
+.end{
+    font-family:"Microsoft Yahei";
+    font-size:2.5rem;
+    width:12rem;
+    height:4rem;
+    display:block;
+    text-align:center;
+    margin:5rem auto 5rem auto ;
+    background-color:#0054A3;
+    border-radius: 1rem;
+    color:white;
+    outline: none;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:15%;
+    width:100%;
+}
+.endLine{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+.questionPicture{
+    display: block;
+    width:50%;
+    height:auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+}
+@media (min-width: 970px) and (max-width: 1170px) {
+html{
+  font:50% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#1B78BC;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.titleline{
+    width:90%;
+    border-top:2px dashed #000;
+}
+.questionline{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.noLine{
+    width:0.1%;
+    border-top:2px dashed #FFF;
+}
+.testQuestions{
+    margin:0 5%;
+}
+.questions{
+    font-size:2rem;
+}
+.answer{
+    font-size:2rem;
+    color:#165FAB;
+}
+.radioInput{
+    width:2rem;
+    height:2rem;
+    color:#165FAB;
+}
+.questionsChoose{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.questionsChoose li{
+    width:100%;
+    display:block;
+    float:left;
+}
+.content{
+    width:70%;
+    margin:0 auto;
+}
+.contentTitle{
+    font-size:2rem;
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    padding-top:1%;
+    float:left;
+    background-color:white;
+
+}
+.boxTitle{
+    width:100%;
+    font-size:3rem;
+    margin-top:2%;
+    display:block;
+    text-align:center; 
+}
+.subtitleBox{
+    margin-top:2%;
+    text-align:center;
+}
+.end{
+    font-family:"Microsoft Yahei";
+    font-size:2.5rem;
+    width:12rem;
+    height:4rem;
+    display:block;
+    text-align:center;
+    margin:5rem auto 5rem auto ;
+    background-color:#0054A3;
+    border-radius: 1rem;
+    color:white;
+    outline: none;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:15%;
+    width:100%;
+}
+.endLine{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+.questionPicture{
+    display: block;
+    width:50%;
+    height:auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+}
+@media (min-width: 1170px) and (max-width: 1440px) {
+html{
+  font:62.5% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#1B78BC;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.titleline{
+    width:90%;
+    border-top:2px dashed #000;
+}
+.questionline{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.noLine{
+    width:0.1%;
+    border-top:2px dashed #FFF;
+}
+.testQuestions{
+    margin:0 5%;
+}
+.questions{
+    font-size:2rem;
+}
+.answer{
+    font-size:2rem;
+    color:#165FAB;
+}
+.radioInput{
+    width:2rem;
+    height:2rem;
+    color:#165FAB;
+}
+.questionsChoose{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.questionsChoose li{
+    width:100%;
+    display:block;
+    float:left;
+}
+.content{
+    width:70%;
+    margin:0 auto;
+}
+.contentTitle{
+    font-size:2rem;
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    padding-top:1%;
+    float:left;
+    background-color:white;
+
+}
+.boxTitle{
+    width:100%;
+    font-size:3rem;
+    margin-top:2%;
+    display:block;
+    text-align:center; 
+}
+.subtitleBox{
+    margin-top:2%;
+    text-align:center;
+}
+.end{
+    font-family:"Microsoft Yahei";
+    font-size:2.5rem;
+    width:12rem;
+    height:4rem;
+    display:block;
+    text-align:center;
+    margin:5rem auto 5rem auto ;
+    background-color:#0054A3;
+    border-radius: 1rem;
+    color:white;
+    outline: none;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:15%;
+    width:100%;
+}
+.endLine{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+.questionPicture{
+    display: block;
+    width:50%;
+    height:auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+}
+@media (min-width: 1440px) and (max-width: 3000px) {
+html{
+  font:70% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+a{
+  text-decoration:none;
+  color:#1B78BC;
+}
+.allPage{
+    width:auto;
+    height:100%;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+    display:block;
+    float:left;
+}
+.managerPicture{
+    width:3.5%;
+    height:65%;
+    display:block;
+    float:right;
+    margin:1.2% 0.2% 0 0;
+}
+.managerName{
+    font-size:2.5rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+    background-color:rgb(245,245,245);
+}
+.navagation{
+    height:10%;
+    width:100%;
+    background-color:rgb(50,50,50);
+    text-align:center;
+}
+.navagationUl{
+    width:80%;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+    display:inline-block;
+}
+.navagationUl li{
+    width:25%;
+    height:100%;
+    display:block;
+    float:left;
+}
+.navagationPicture{
+    width:50px;
+    height:50px;
+    display:block;
+    float:left;
+}
+.navagationUl li a span{
+    font-size:2rem;
+    height:100%;
+    width:70%;
+    color:white;
+    display:block;
+    float:left;
+    position:relative;
+    top:30%;
+    left:0;
+}
+.titleline{
+    width:90%;
+    border-top:2px dashed #000;
+}
+.questionline{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.noLine{
+    width:0.1%;
+    border-top:2px dashed #FFF;
+}
+.testQuestions{
+    margin:0 5%;
+}
+.questions{
+    font-size:2rem;
+}
+.answer{
+    font-size:2rem;
+    color:#165FAB;
+}
+.radioInput{
+    width:2rem;
+    height:2rem;
+    color:#165FAB;
+}
+.questionsChoose{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.questionsChoose li{
+    width:100%;
+    display:block;
+    float:left;
+}
+.content{
+    width:70%;
+    margin:0 auto;
+}
+.contentTitle{
+    font-size:2rem;
+    margin-top:1.5%;
+    height:5%;
+    display:block;
+}
+.recordBox{
+    width:100%;
+    padding-top:1%;
+    float:left;
+    background-color:white;
+
+}
+.boxTitle{
+    width:100%;
+    font-size:3rem;
+    margin-top:2%;
+    display:block;
+    text-align:center; 
+}
+.subtitleBox{
+    margin-top:2%;
+    text-align:center;
+}
+.end{
+    font-family:"Microsoft Yahei";
+    font-size:2.5rem;
+    width:12rem;
+    height:4rem;
+    display:block;
+    text-align:center;
+    margin:5rem auto 5rem auto ;
+    background-color:#0054A3;
+    border-radius: 1rem;
+    color:white;
+    outline: none;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:15%;
+    width:100%;
+}
+.endLine{
+    width:100%;
+    border-top:2px dashed #000;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+.questionPicture{
+    display: block;
+    width:50%;
+    height:auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+}

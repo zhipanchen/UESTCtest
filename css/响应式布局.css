@@ -1,0 +1,24 @@
+﻿@media (min-width: 0px) and (max-width: 970px) {
+html{
+  font:40% "Microsoft Yahei";
+}
+
+}
+@media (min-width: 970px) and (max-width: 1170px) {
+html{
+  font:50% "Microsoft Yahei";
+}
+
+}
+@media (min-width: 1170px) and (max-width: 1440px) {
+html{
+  font:62.5% "Microsoft Yahei";
+}
+
+}
+@media (min-width: 1440px) and (max-width: 3000px) {
+html{
+  font:70% "Microsoft Yahei";
+}
+
+}
