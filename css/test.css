@@ -1,1 +1,8 @@
-﻿
+﻿.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}

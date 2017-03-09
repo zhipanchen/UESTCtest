@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 require_once './closed/session.php';
 require_once './closed/module.php';

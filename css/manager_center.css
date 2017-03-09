@@ -242,6 +242,14 @@ a{
     display:block;
     margin:0 auto;
 }
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
 /*pageFloot（end）--------------------------------------------------------------*/
 }
 @media (min-width: 970px) and (max-width: 1170px) {
@@ -487,6 +495,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -734,6 +750,14 @@ a{
     display:block;
     margin:0 auto;
 }
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
 /*pageFloot（end）--------------------------------------------------------------*/
 }
 @media (min-width: 1440px) and (max-width: 3000px) {
@@ -979,6 +1003,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }

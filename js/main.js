@@ -7,6 +7,19 @@ function focusToRed(inputId,color){//获得焦点的inpt元素字体颜色改变
         $(inputId).css('color',color);
     });
 }
+
+function logout(){//注销登录
+          $.ajax({
+                type:"POST",
+                url:"php/logout.php?date="+Date.parse(new Date()),
+                dataType:"json",
+                data:{},
+                success:function(data){
+                    location.href="login.html";
+              }
+         });
+
+}
 //通用（end）********************************************************
 
 
@@ -98,10 +111,11 @@ function passIntoOtherPage(){//用户，密码正确，页面跳转功能
                 }else if(result.state=='1'){
                         location.href="manager_studyModules.html";
                 }else if(result.state=='0'){
-                    $("#username").css('color','red');
-                    $("#password").css('color','red');
-                }
-                
+                    $("#username").val("");
+                    $("#password").val("");
+                    $("#username").attr('placeholder','用户名或密码错误');
+                    
+                }        
             }
         });
     });
@@ -114,6 +128,9 @@ function passIntoOtherPage(){//用户，密码正确，页面跳转功能
 var userid='';
 
 function getManagerCenterInformation(){//初始化页面数据
+    $(".logout").click(function(){
+        logout();//注销登录
+    });
         $.ajax({
             type:"POST",
             url:"php/center_show.php?date="+Date.parse(new Date()),
@@ -726,7 +743,7 @@ function studylModulesManageEditAndRemove(){//修改，删除模块
 function showManagerTestModles(){//呈现,删除考试模块
     $.ajax({
         type:"POST",
-        url:"php/manager_testlModules_show.php?date="+Date.parse(new Date()),
+        url:"php/manager_testModules_show.php?date="+Date.parse(new Date()),
         dataType:"json",
         data:{},
         success:function(data){
@@ -1319,11 +1336,12 @@ function UserHistoryInitPage(){//初始化页面信息
                 $(".titleUl").prepend(html);
             }
             
-            nowHistoryTime=result.list.data[0].historytime;
-            $("#subject").text(result.list.data[0].subjectname);
-            $("#grade").text(result.list.data[0].historyscore);
-            $("#time").text(getLocalTime(result.list.data[0].historytime));
-            $("#worry").text(result.list.data[0].historywrongnumber);
+            var number=result.list.data.length-1;
+            nowHistoryTime=result.list.data[number].historytime;
+            $("#subject").text(result.list.data[number].subjectname);
+            $("#grade").text(result.list.data[number].historyscore);
+            $("#time").text(getLocalTime(result.list.data[number].historytime));
+            $("#worry").text(result.list.data[number].historywrongnumber);
 
             UserHistoryChangeRecord();//点击历史记录，获取历史信息
         }
@@ -1342,6 +1360,7 @@ function UserHistoryChangeRecord(){//点击历史记录，获取历史信息
         $("#grade").text(allInformation.list.data[historyId].historyscore);
         $("#time").text(getLocalTime(allInformation.list.data[historyId].historytime));
         $("#worry").text(allInformation.list.data[historyId].historywrongnumber);
+        UserHistoryBack();//返回历史记录
     });
 }
 
@@ -1360,28 +1379,59 @@ function UserHistoryWorryQuestion(){//获取错题信息
             success:function(data){
                 var result=eval(data);
                 for(var i=0;i<result.length;i++){
+
+                    var q='<img src="'+"php/"+result[i].questiondata.questionpicture+'" class="questionPicture pictureStyle"/>';
+                    var a='<img src="'+"php/"+result[i].questiondata.questionpicturea+'" class="Apicture pictureStyle"/>';
+                    var b='<img src="'+"php/"+result[i].questiondata.questionpictureb+'" class="Bpicture pictureStyle"/>';
+                    var c='<img src="'+"php/"+result[i].questiondata.questionpicturec+'" class="Cpicture pictureStyle"/>';
+                    var d='<img src="'+"php/"+result[i].questiondata.questionpictured+'" class="Dpicture pictureStyle"/>';
+                    var n='<img src="'+"php/"+result[i].questiondata.questionnotepicture+'" class="analysedPicture pictureStyle"/>';
+
+                    if(result[i].questiondata.questionpicture==null){
+                        q='';
+                    }
+                    if(result[i].questiondata.questionpicturea==null){
+                        a='';
+                    }
+                    if(result[i].questiondata.questionpictureb==null){
+                        b='';
+                    }
+                    if(result[i].questiondata.questionpicturec==null){
+                        c='';
+                    }
+                    if(result[i].questiondata.questionpictured==null){
+                        d='';
+                    }
+                    if(result[i].questiondata.questionnotepicture==null){
+                        n='';
+                    }
+
                     var html='<div class="testQuestions">'+
-                    '<span class="questions">'+(i+1)+'.'+result[i].questiondata.questioninfo+'</span>'+
-                    //'<img src="'+result[i].question.questionpicture+'" class="questionPicture"/>'+
+                    '<span class="questions tdResult">'+(i+1)+'.'+result[i].questiondata.questioninfo+'</span>'+
+                    q+//'<img src="'+result[i].question.questionpicture+'" class="questionPicture"/>'+
                     '<br /><br />'+
                     '<ul class="questionsChoose">'+
-                        '<li><sapn class="questions">A.'+result[i].questiondata.questionchoicea+'</sapn><li/>'+
-                        //'<img src="'+result[i].question.questionpicturea+'" class="Apicture"/>'+
-                        '<li><sapn class="questions">B.'+result[i].questiondata.questionchoiceb+'</sapn><li/>'+
-                        //'<img src="'+result[i].question.questionpictureb+'" class="Bpicture"/>'+
-                        '<li><sapn class="questions">C.'+result[i].questiondata.questionchoicec+'</sapn><li/>'+
-                        //'<img src="'+result[i].question.questionpicturec+'" class="Cpicture"/>'+
-                        '<li><sapn class="questions">D.'+result[i].questiondata.questionchoiced+'</sapn><li/>'+
-                        //'<img src="'+result[i].question.questionpictured+'" class="Dpicture"/>'+
+                        '<li><sapn class="questions tdResult">A.'+result[i].questiondata.questionchoicea+'</sapn><li/>'+
+                        a+//'<img src="'+result[i].question.questionpicturea+'" class="Apicture"/>'+
+                        '<li><sapn class="questions tdResult">B.'+result[i].questiondata.questionchoiceb+'</sapn><li/>'+
+                        b+//'<img src="'+result[i].question.questionpictureb+'" class="Bpicture"/>'+
+                        '<li><sapn class="questions tdResult">C.'+result[i].questiondata.questionchoicec+'</sapn><li/>'+
+                        c+//'<img src="'+result[i].question.questionpicturec+'" class="Cpicture"/>'+
+                        '<li><sapn class="questions tdResult">D.'+result[i].questiondata.questionchoiced+'</sapn><li/>'+
+                        d+//'<img src="'+result[i].question.questionpictured+'" class="Dpicture"/>'+
                     '</ul>'+
                     '<hr class="noLine"/><br />'+
-                    '<span class="answer">正确答案：</span><span class="answer">'+result[i].questiondata.questioncorrectanswer+'</span><br />'+
-                    '<span class="answer">试题解析：</span><span class="answer">'+result[i].questiondata.questionnote+'</span>'+
-                    //'<img src="'+result[i].question.questionnotepicture+'" class="analysedPicture"/>'+
+                    '<span class="answer tdResult">正确答案：</span><span class="answer tdResult">'+result[i].questiondata.questioncorrectanswer+'</span><br />'+
+                    '<span class="answer tdResult">试题解析：</span><span class="answer tdResult">'+result[i].questiondata.questionnote+'</span>'+
+                    n+//'<img src="'+result[i].question.questionnotepicture+'" class="analysedPicture"/>'+
                     '<br /><br />'+
                     '<hr class="questionline"/><br />'+
                     '</div>';
-                    $("#testdiv").prepend(html);
+                    if(i==result.length-1){
+                        html=html+'<input type="button" value="返回" class="end" id="endButton"/>';
+                    }
+                    $("#testdiv").append(html);
+                    UserHistoryBack();//返回历史记录
                 }     
                 $("#testdiv").css("display","block");
                 $("#tablediv").css("display","none");
@@ -1405,13 +1455,16 @@ function sendRegisterInformation(){//提交个人注册信息
     //输入：传入一个json,json名args,args是一个数组，其中有username,useremail,userphone,userpassword,usertruename,usercode
     //输出：json格式的数字，1代表username已注册，2代表useremail已注册，3代表真实姓名和学号的组合已注册，5代表注册成功，已经发送了邮件
     //注册
-    if($("#phoneNumber").val()==''){
-        phoneNumber="0";
-    }else{
-        phoneNumber=$("#phoneNumber").val();
-    };
     $("#finishButton").click(function(){
-        if($("#username").val()!=''&& $("#password").val()!='' && $("#surePassword").val()!='' && 
+        if($("#surePassword").val().length<6){
+            $("#password").val("");
+            $("#surePassword").val("");
+            $("#password").attr("placeholder",'密码不足6位');
+        }else if($("#surePassword").val().length>16){
+            $("#password").val("");
+            $("#surePassword").val("");
+            $("#password").attr("placeholder",'密码超过16位');
+        }else if($("#username").val()!=''&& $("#password").val()!='' && $("#surePassword").val()!='' && 
            $("#realName").val()!=''&& $("#studentNumber").val()!='' && $("#email").val()!=''){
                if($("#password").val()==$("#surePassword").val()){
                    $.ajax({
@@ -1421,7 +1474,7 @@ function sendRegisterInformation(){//提交个人注册信息
                     data:{
                           username:$("#username").val(),
                           useremail:$("#email").val(),
-                          userphone:phoneNumber,
+                          userphone:$("#phoneNumber").val(),
                           userpassword:$("#password").val(),
                           usertruename:$("#realName").val(),
                           usercode:$("#studentNumber").val()

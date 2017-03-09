@@ -1,4 +1,4 @@
-﻿<?php
+<?php
     require_once './closed/user.php';
     $u = new user();
     $userEmail=$_POST['userEmail'];

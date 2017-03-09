@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 error_reporting(0);
 //$args=json_decode($_POST['args']);
 
