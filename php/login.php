@@ -1,39 +1,41 @@
-<?php
-error_reporting(0);
-require_once './closed/config.php';
-require_once './closed/session.php';
-require_once './closed/user.php';
-require_once './closed/clearOnTime.php';
+﻿<?php
+
+require_once 'closed/config.php';
+require_once 'closed/session.php';
+require_once 'closed/connect_db.php';
 $s = new Session();
-$u = new user();
+$conn = connectDb();
 $username=$_POST['username'];
 $password=$_POST['password'];
-clearOnTime();
-$user=$u->getUserByUserName($username);
+//$username="peadmin";
+//$password="peadmin";
+$sql="SELECT * FROM x2_user WHERE username= '$username'";
+$stmt = $conn->query($sql);
+$user = $stmt->fetch(PDO::FETCH_ASSOC);
 if($user)
 {
-    $s->clearSession($user['username']);
-    if($user['userstate']==0)
-    {
-        $message['state']=3;
-    }
-    else
-    {
-        if($user['userpassword']==md5($password))
-        {
-            $message['state']=$user['usergroupid'];
-            $s->setSession($user);
-        }
-        else
-        {
-            $message['state']=0;
-        }
-    }
+     if($user['userstate']==0)
+     {
+          $message['state']=3;
+     }
+     else
+     {
+          if($user['userpassword']==md5($password))
+          {
+               $message['state']=$user['usergroupid'];
+               $s->setSession($user);
+          }
+          else
+          {
+               $message['state']=0;
+          }
+     }
 }
 else
 {
-    $message['state']=0;
+     $message['state']=0;
 }
-
+$stmt=null;
+$conn=null;
 echo json_encode($message);
 ?>

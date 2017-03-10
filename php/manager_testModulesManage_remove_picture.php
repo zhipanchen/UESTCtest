@@ -5,7 +5,6 @@
  * Date: 2017/1/13
  * Time: 15:10
  */
-error_reporting(0);
 require_once './closed/question.php';
 
 $questionid = $_POST['questionid'];

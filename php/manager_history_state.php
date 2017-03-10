@@ -5,7 +5,7 @@
  * Date: 17-1-8
  * Time: 下午4:28
  */
-error_reporting(0);
+
 require_once './closed/subject.php';
 
 $s = new subject();
@@ -21,4 +21,5 @@ foreach ($subjects['data'] as $subject)
     $temp+=1;
 }
 echo json_encode($result);
+//[{"subjectid":"1","subjectName":"\u8bed\u6587","passLine":"60","totleScore":5},{"subjectid":"2","subjectName":"\u6570\u5b66","passLine":"60","totleScore":5}]
 ?>

@@ -16,12 +16,11 @@ $s = new subject();
 $ss = new Session();
 $u = new user();
 $session=$ss->getCurrentSession();
-if(!$session||($session['sessiongroupid']!=1)){
+$user = $u->getUserById($session['sessionuserid']);
+
+if(!$session){
     echo json_encode(array('result'=>'redirection'));
-    require_once 'logout.php';
-    exit(0);
 }else{
-    $user = $u->getUserById($session['sessionuserid']);
     $result = array();
     $subjects = $s->getSubjectList();
     $temp=0;
@@ -45,4 +44,5 @@ if(!$session||($session['sessiongroupid']!=1)){
     }
     echo json_encode(array('username'=>$user['username'],'photo'=>$user['photo'],'result'=>$result));
 };
+//{"username":"peadmin","photo":"123","result":[{"subjectname":"\u8bed\u6587","passsocre":3,"totalscore":5,"averagescore":3,"passnumber":2,"data":[{"usertruename":"admin","usercode":"123"},{"usertruename":"123","usercode":"123"}]},{"subjectname":"\u6570\u5b66","passsocre":3,"totalscore":5,"averagescore":1,"passnumber":0}]}
 ?>

@@ -3,7 +3,7 @@ html{
   font:40% "Microsoft Yahei";
 }
 body{
-  
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -70,13 +70,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:2.3rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -241,14 +241,6 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -257,7 +249,7 @@ html{
   font:50% "Microsoft Yahei";
 }
 body{
-  
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -324,8 +316,8 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
@@ -495,14 +487,6 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -514,7 +498,7 @@ html{
   font:62.5% "Microsoft Yahei";
 }
 body{
-  
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -581,13 +565,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:1.7rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -752,14 +736,6 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -768,7 +744,7 @@ html{
   font:70% "Microsoft Yahei";
 }
 body{
-  
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -835,13 +811,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:1.6rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -1006,14 +982,6 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }

@@ -8,6 +8,7 @@
 error_reporting(0);
 
 $dataid = $_POST['dataid'];
+//$args = json_decode($_POST['args']);
 
 $args['moduleid']=$_POST['moduleid'];
 $args['datainfo']=$_POST['datainfo'];
@@ -120,5 +121,6 @@ if($args['datascore'])
     $que->modDataScoreById($args['datascore'],$dataid);
 }
 echo json_encode(array('result'=>'success'));
+//{"result":"success"}
 ?>
 

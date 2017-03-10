@@ -3,7 +3,7 @@ html{
   font:40% "Microsoft Yahei";
 }
 body{
-  
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -70,13 +70,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:2.3rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -392,14 +392,6 @@ a{
     top:0;
     left:0;
     display:none;  
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 }
 @media (min-width: 970px) and (max-width: 1170px) {
@@ -407,7 +399,7 @@ html{
   font:50% "Microsoft Yahei";
 }
 body{
-  
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -474,8 +466,8 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
@@ -796,14 +788,6 @@ a{
     top:0;
     left:0;
     display:none;  
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 }
 @media (min-width: 1170px) and (max-width: 1440px) {
@@ -811,7 +795,7 @@ html{
   font:62.5% "Microsoft Yahei";
 }
 body{
-  
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -878,13 +862,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:1.7rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -1200,14 +1184,6 @@ a{
     top:0;
     left:0;
     display:none;  
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 }
 @media (min-width: 1440px) and (max-width: 3000px) {
@@ -1215,7 +1191,7 @@ html{
   font:70% "Microsoft Yahei";
 }
 body{
-  
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -1282,13 +1258,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:1.6rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -1604,13 +1580,5 @@ a{
     top:0;
     left:0;
     display:none;  
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 }

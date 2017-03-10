@@ -1,10 +1,9 @@
-﻿html{
-  font:62.5% "Microsoft Yahei";
-}
+﻿@media (min-width: 0px) and (max-width: 970px) {
 html{
-  font:62.5% "Microsoft Yahei";
+  font:40% "Microsoft Yahei";
 }
 body{
+  min-height:700px;
   min-width:1100px;
   margin:0rem auto;
   padding:0rem;
@@ -32,10 +31,9 @@ body{
 .pageBody{
     height:80%;
     width:100%;
-    min-height:400px;
 }
 .loginBox{
-    height:360px;
+    height:65%;
     width:25%;
     padding-top:0.5%;
     background-color:white;
@@ -50,7 +48,7 @@ body{
     border-top:2px solid #0054A3;
 }
 .textStyle{
-    font-size:1.5rem;
+    font-size:2rem;
     width:32%;
     height:5%;
     float:left;
@@ -64,7 +62,7 @@ body{
     margin-bottom:4%;
 }
 .inputStyle{
-    font-size:1.5rem;
+    font-size:2rem;
     width:60%;
     border-radius:5px;
     border:3px solid #000;
@@ -78,7 +76,7 @@ body{
     color:#0054A3;
 }
 .boxTitle{
-    font-size:2rem;
+    font-size:2.3rem;
     margin-left:25px;
 }
 .redSign{
@@ -93,8 +91,8 @@ body{
 }
 .registerButton{
     text-decoration: none;
-    width:30%;
-    height:30px;
+    width:40%;
+    height:10%;
     color:white;
     display:block;
     border-radius:10px;
@@ -102,7 +100,7 @@ body{
     margin:10px auto 0 auto;
     text-align:center;
     font-family:"Microsoft Yahei";
-    font-size:1.5rem;
+    font-size:1.7rem;
     outline: none;
 }
 /*pagebody（end）----------------------------------------------------------------------*/
@@ -123,7 +121,7 @@ body{
     height:100%;
 }
 .FlootUpText{
-    font-size:1.3rem;
+    font-size:1.6rem;
     color:white;
     position:relative;
     top:-37%;
@@ -175,4 +173,539 @@ body{
     line-height:100px;
     color:green;
     display:block;
+}
+}
+@media (min-width: 970px) and (max-width: 1170px) {
+html{
+  font:50% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+.allPage{
+    background-image:url('../image/register.png');
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+}
+.loginBox{
+    height:65%;
+    width:25%;
+    padding-top:0.5%;
+    background-color:white;
+    border-radius:10px;
+    margin:0 auto;
+    -webkit-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    -moz-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    box-shadow: 0.5rem 0.5rem 0.5rem; 
+    opacity: 0.8;
+}
+.lineStyle{
+    border-top:2px solid #0054A3;
+}
+.textStyle{
+    font-size:2rem;
+    width:32%;
+    height:5%;
+    float:left;
+}
+.redSignSpecial{
+    color:red;
+    float:left;
+    text-indent:5rem;
+}
+.liStyle2{
+    margin-bottom:4%;
+}
+.inputStyle{
+    font-size:2rem;
+    width:60%;
+    border-radius:5px;
+    border:3px solid #000;
+    outline:none;
+}
+.elseText{
+    color:#0054A3;
+    margin-left:34%;
+}
+.elseTextSpecial{
+    color:#0054A3;
+}
+.boxTitle{
+    font-size:2.3rem;
+    margin-left:25px;
+}
+.redSign{
+    color:red;
+    float:left;
+}
+.registerGroup{
+    list-style: none;
+    position:relative;
+    top:0;
+    left:-5%;
+}
+.registerButton{
+    text-decoration: none;
+    width:40%;
+    height:10%;
+    color:white;
+    display:block;
+    border-radius:10px;
+    background-color:#0054A3;
+    margin:10px auto 0 auto;
+    text-align:center;
+    font-family:"Microsoft Yahei";
+    font-size:1.7rem;
+    outline: none;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpPicture{
+    width:auto;
+    height:100%;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+#dialogBox{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialog{
+    width:100%;
+    height:100%;
+    background-color:#323232;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.dialogInformation{
+    width:50rem;
+    height:10rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius:10px;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.success{
+    font-size:2.5rem;
+    height:100px;
+    line-height:100px;
+    color:green;
+    display:block;
+}
+}
+@media (min-width: 1170px) and (max-width: 1440px) {
+html{
+  font:62.5% "Microsoft Yahei";
+}
+html{
+  font:62.5% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+.allPage{
+    background-image:url('../image/register.png');
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+}
+.loginBox{
+    height:65%;
+    width:25%;
+    padding-top:0.5%;
+    background-color:white;
+    border-radius:10px;
+    margin:0 auto;
+    -webkit-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    -moz-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    box-shadow: 0.5rem 0.5rem 0.5rem; 
+    opacity: 0.8;
+}
+.lineStyle{
+    border-top:2px solid #0054A3;
+}
+.textStyle{
+    font-size:2rem;
+    width:32%;
+    height:5%;
+    float:left;
+}
+.redSignSpecial{
+    color:red;
+    float:left;
+    text-indent:5rem;
+}
+.liStyle2{
+    margin-bottom:4%;
+}
+.inputStyle{
+    font-size:2rem;
+    width:60%;
+    border-radius:5px;
+    border:3px solid #000;
+    outline:none;
+}
+.elseText{
+    color:#0054A3;
+    margin-left:34%;
+}
+.elseTextSpecial{
+    color:#0054A3;
+}
+.boxTitle{
+    font-size:2.3rem;
+    margin-left:25px;
+}
+.redSign{
+    color:red;
+    float:left;
+}
+.registerGroup{
+    list-style: none;
+    position:relative;
+    top:0;
+    left:-5%;
+}
+.registerButton{
+    text-decoration: none;
+    width:40%;
+    height:10%;
+    color:white;
+    display:block;
+    border-radius:10px;
+    background-color:#0054A3;
+    margin:10px auto 0 auto;
+    text-align:center;
+    font-family:"Microsoft Yahei";
+    font-size:1.7rem;
+    outline: none;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpPicture{
+    width:auto;
+    height:100%;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+#dialogBox{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialog{
+    width:100%;
+    height:100%;
+    background-color:#323232;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.dialogInformation{
+    width:50rem;
+    height:10rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius:10px;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.success{
+    font-size:2.5rem;
+    height:100px;
+    line-height:100px;
+    color:green;
+    display:block;
+}
+}
+@media (min-width: 1440px) and (max-width: 3000px) {
+html{
+  font:70% "Microsoft Yahei";
+}
+body{
+  min-height:700px;
+  min-width:1100px;
+  margin:0rem auto;
+  padding:0rem;
+  background-color:#F5F5F5;
+}
+.allPage{
+    background-image:url('../image/register.png');
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+/*pageheader（star）--------------------------------------------------------------------*/
+.pageHeader{
+    height:10%;
+    width:100%;
+    border-bottom:0.6rem solid #0054A3;
+}
+.titlePicture{
+    width:auto;
+    height:100%;
+}
+/*pageheader（end）----------------------------------------------------------------------*/
+
+/*pagebody（star）-----------------------------------------------------------------------*/
+.pageBody{
+    height:80%;
+    width:100%;
+}
+.loginBox{
+    height:65%;
+    width:25%;
+    padding-top:0.5%;
+    background-color:white;
+    border-radius:10px;
+    margin:0 auto;
+    -webkit-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    -moz-box-shadow: 0.5rem 0.5rem 0.5rem;  
+    box-shadow: 0.5rem 0.5rem 0.5rem; 
+    opacity: 0.8;
+}
+.lineStyle{
+    border-top:2px solid #0054A3;
+}
+.textStyle{
+    font-size:2rem;
+    width:32%;
+    height:5%;
+    float:left;
+}
+.redSignSpecial{
+    color:red;
+    float:left;
+    text-indent:5rem;
+}
+.liStyle2{
+    margin-bottom:4%;
+}
+.inputStyle{
+    font-size:2rem;
+    width:60%;
+    border-radius:5px;
+    border:3px solid #000;
+    outline:none;
+}
+.elseText{
+    color:#0054A3;
+    margin-left:34%;
+}
+.elseTextSpecial{
+    color:#0054A3;
+}
+.boxTitle{
+    font-size:2.3rem;
+    margin-left:25px;
+}
+.redSign{
+    color:red;
+    float:left;
+}
+.registerGroup{
+    list-style: none;
+    position:relative;
+    top:0;
+    left:-5%;
+}
+.registerButton{
+    text-decoration: none;
+    width:40%;
+    height:10%;
+    color:white;
+    display:block;
+    border-radius:10px;
+    background-color:#0054A3;
+    margin:10px auto 0 auto;
+    text-align:center;
+    font-family:"Microsoft Yahei";
+    font-size:1.7rem;
+    outline: none;
+}
+/*pagebody（end）----------------------------------------------------------------------*/
+
+/*pageFloot（star）---------------------------------------------------------------------*/
+.pageFloot{
+    height:10%;
+    width:100%;
+}
+.FlootUp{
+    width:100%;
+    height:70%;
+    background-color:#323232;
+    text-align:center;
+}
+.FlootUpPicture{
+    width:auto;
+    height:100%;
+}
+.FlootUpText{
+    font-size:1.6rem;
+    color:white;
+    position:relative;
+    top:-37%;
+    left:0;
+}
+.FlootDown{
+    height:33%;
+    background-color:#0A0A0A;
+}
+.FlootDownPicture{
+    width:auto;
+    height:100%;
+    display:block;
+    margin:0 auto;
+}
+/*pageFloot（end）--------------------------------------------------------------*/
+#dialogBox{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.dialog{
+    width:100%;
+    height:100%;
+    background-color:#323232;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.dialogInformation{
+    width:50rem;
+    height:10rem;
+    margin:0 auto;
+    background-color:white;
+    border-radius:10px;
+    text-align: center;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.success{
+    font-size:2.5rem;
+    height:100px;
+    line-height:100px;
+    color:green;
+    display:block;
+}
 }

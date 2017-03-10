@@ -3,6 +3,7 @@ html{
   font:40% "Microsoft Yahei";
 }
 body{
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -69,13 +70,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:2.3rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -117,11 +118,11 @@ a{
     height:45%;
     float:left;
     text-align: center;
-    margin:0 0 80px 0;
+    margin:0 0 50px 0;
 }
 .divbox{
-    width:200px;
-    height:200px;
+    width:230px;
+    height:230px;
     background-color:#0054A3;
     border-radius:15px;
     display:inline-block;
@@ -141,14 +142,14 @@ a{
     margin-top:20%;
     text-align: center;
     background-color:#0054A3;
-    font-size:25px;
+    font-size:4rem;
     color:#FFF;
     display:block;
     float:right;
 }
 .testBoxPicture{
-    width:200px;
-    height:200px;
+    width:230px;
+    height:230px;
     display:block;
     float:right;
     cursor: pointer;
@@ -267,14 +268,6 @@ a{
     margin-top:1rem;
     display:block;
     float:left;
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 }
 @media (min-width: 970px) and (max-width: 1170px) {
@@ -282,7 +275,7 @@ html{
   font:50% "Microsoft Yahei";
 }
 body{
-
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -349,8 +342,8 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
@@ -397,11 +390,11 @@ a{
     height:45%;
     float:left;
     text-align: center;
-    margin:0 0 80px 0;
+    margin:0 0 50px 0;
 }
 .divbox{
-    width:200px;
-    height:200px;
+    width:230px;
+    height:230px;
     background-color:#0054A3;
     border-radius:15px;
     display:inline-block;
@@ -421,14 +414,14 @@ a{
     margin-top:20%;
     text-align: center;
     background-color:#0054A3;
-    font-size:25px;
+    font-size:4rem;
     color:#FFF;
     display:block;
     float:right;
 }
 .testBoxPicture{
-    width:200px;
-    height:200px;
+    width:230px;
+    height:230px;
     display:block;
     float:right;
     cursor: pointer;
@@ -547,14 +540,6 @@ a{
     margin-top:1rem;
     display:block;
     float:left;
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 }
 @media (min-width: 1170px) and (max-width: 1440px) {
@@ -562,7 +547,7 @@ html{
   font:62.5% "Microsoft Yahei";
 }
 body{
-
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -629,13 +614,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:1.7rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -677,11 +662,11 @@ a{
     height:45%;
     float:left;
     text-align: center;
-    margin:0 0 80px 0;
+    margin:0 0 50px 0;
 }
 .divbox{
-    width:200px;
-    height:200px;
+    width:230px;
+    height:230px;
     background-color:#0054A3;
     border-radius:15px;
     display:inline-block;
@@ -701,14 +686,14 @@ a{
     margin-top:20%;
     text-align: center;
     background-color:#0054A3;
-    font-size:25px;
+    font-size:4rem;
     color:#FFF;
     display:block;
     float:right;
 }
 .testBoxPicture{
-    width:200px;
-    height:200px;
+    width:230px;
+    height:230px;
     display:block;
     float:right;
     cursor: pointer;
@@ -827,14 +812,6 @@ a{
     margin-top:1rem;
     display:block;
     float:left;
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 }
 @media (min-width: 1440px) and (max-width: 3000px) {
@@ -842,7 +819,7 @@ html{
   font:70% "Microsoft Yahei";
 }
 body{
-
+  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -909,13 +886,13 @@ a{
     float:left;
 }
 .navagationPicture{
-    width:auto;
-    height:100%;
+    width:50px;
+    height:50px;
     display:block;
     float:left;
 }
 .navagationUl li a span{
-    font-size:1.6rem;
+    font-size:2rem;
     height:100%;
     width:70%;
     color:white;
@@ -957,11 +934,11 @@ a{
     height:45%;
     float:left;
     text-align: center;
-    margin:0 0 80px 0;
+    margin:0 0 50px 0;
 }
 .divbox{
-    width:200px;
-    height:200px;
+    width:230px;
+    height:230px;
     background-color:#0054A3;
     border-radius:15px;
     display:inline-block;
@@ -981,14 +958,14 @@ a{
     margin-top:20%;
     text-align: center;
     background-color:#0054A3;
-    font-size:25px;
+    font-size:4rem;
     color:#FFF;
     display:block;
     float:right;
 }
 .testBoxPicture{
-    width:200px;
-    height:200px;
+    width:230px;
+    height:230px;
     display:block;
     float:right;
     cursor: pointer;
@@ -1107,13 +1084,5 @@ a{
     margin-top:1rem;
     display:block;
     float:left;
-}
-.logout{
-    font-size:2.2rem;
-    display:block;
-    float:right;
-    margin:1.6% 2% 0 0;
-    cursor: pointer;
-    color:#0054a3;
 }
 }

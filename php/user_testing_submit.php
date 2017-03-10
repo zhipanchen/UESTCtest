@@ -5,7 +5,7 @@
  * Date: 17-1-8
  * Time: 下午10:04
  */
-error_reporting(0);
+
 require_once './closed/session.php';
 require_once './closed/user.php';
 require_once './closed/subject.php';
@@ -14,6 +14,11 @@ require_once './closed/history.php';
 $subjectid = $_POST['subjectid'];
 $questions = $_POST['questions'];
 $historyusetime = $_POST['historyusetime'];
+
+//$subjectid=1;
+//$temp=array('1'=>'A','2'=>'B','3'=>'C','4'=>'D','5'=>'A');
+//$questions=json_encode($temp);
+//$historyusetime=123;
 
 $u = new user();
 $s = new Session();
@@ -24,8 +29,6 @@ $session = $s->getCurrentSession();
 
 if(!$session){
     echo json_encode(array('result'=>'redirection'));
-    require_once 'logout.php';
-    exit(0);
 }else {
     $user = $u->getUserById($session['sessionuserid']);
     $args['userid']=$user['userid'];
@@ -43,4 +46,5 @@ if(!$session){
     }
     echo json_encode(array('username'=>$user['username'],'score'=>$score,'isPass'=>$isPass));
 }
+//{"username":"peadmin","score":"4","isPass":1}
 ?>

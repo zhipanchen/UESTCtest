@@ -4,14 +4,12 @@
 <meta charset="utf-8">
 <title>用户管理</title>
 <link type="text/css" rel="stylesheet" href="css/manager_userManage.css"></link>
-<link type="text/css" rel="stylesheet" href="css/test.css"></link>
 </head>
 <body>
 <div class="allPage">
     <!--pageHeader(star)***************************************************************************-->
     <div class="pageHeader">
         <img class="titlePicture" src="image/login_title.png"/>
-        <span class="logout">注销</span>
         <span class="managerName"></span>
         <img class="managerPicture" src="image/grade_manager.png"/>
     </div>
@@ -21,11 +19,11 @@
     <div class="pageBody">
         <div class="navagation">
             <ul class="navagationUl">
-                <li><a href="manager_studyModules.html"><img class="navagationPicture" src="image/online_study1.png"/><span>学习资料管理</span></a></li>
-                <li><a href="manager_testlModules.html"><img class="navagationPicture" src="image/test_manage_navagation1.png"/><span>题库管理</span></a></li>
-                <li><a href="manager_history.html"><img class="navagationPicture" src="image/online_history1.png"/><span id="x1">成绩管理/历史记录</span></a></li>
-                <li><a href="manager_userManage.html"><img class="navagationPicture" src="image/user_manage_navagation2.png"/><span>用户管理</span></a></li>
-                <li><a href="manager_center.html"><img class="navagationPicture" src="image/center1.png"/><span>个人中心</span></a></li>
+                <li><a href="manager_studyModules.html"><img class="navagationPicture" src="image/grade_manage_navagation3.png"/><span>学习资料管理</span></a></li>
+                <li><a href="manager_testlModules.html"><img class="navagationPicture" src="image/grade_manage_navagation2.png"/><span>题库管理</span></a></li>
+                <li><a href="manager_history.html"><img class="navagationPicture" src="image/grade_manage_navagation5.png"/><span id="x1">成绩管理/历史记录</span></a></li>
+                <li><a href="manager_userManage.html"><img class="navagationPicture" src="image/grade_manage_navagation4.png"/><span>用户管理</span></a></li>
+                <li><a href="manager_center.html"><img class="navagationPicture" src="image/grade_manage_navagation1.png"/><span>个人中心</span></a></li>
             </ul>
         </div>
         <div class="content">
@@ -33,8 +31,7 @@
             <div class="recordBox">
                 <span>学号：</span><input type="text" value="" class="inputStyle" id="searchText"/>
                 <label class="operationAction" id="searchButton">用户查询</label>
-                <label class="operationAction2" id="setTime">注册时间段设置</label>
-                <label class="operationAction1" id="removeMore">批量删除</label>
+                <label class="operationAction1">批量删除</label>
             </div>
             <div class="subrecordBox">
                 <table class="tableStyle">
@@ -73,27 +70,6 @@
             <div><span class="wordStyle">手机号码：</span><span class="wordStyle" id="phongNumber"></span></div>
             <div><span class="getBackButton">返回</span></div>
         </div>
-    </div>
-    <div class="box">
-        <div class="box1">
-            <span class="hisstoryTitle">历史记录</span>
-           <table class="historytable">
-                <thead>
-                    <tr><th><span class="checkTitle">时间</span></th><th>科目</th><th>得分</th><th>错题数</th></tr> 
-                </thead>
-                <tbody class="bodyBox" id="informationBox">
-           
-                </tbody>
-            </table>
-        </div>
-        <span class="getBack">返回</span>
-    </div>
-    <div class="timeBox">
-        <span class="timeSetTitle">注册时间设置</span>
-        <div><span class="timeLine">起始日期：</span><input type="text" class="timeInput" placeholder="例：2017-02-12" id="startButton"/></div>
-        <div><span class="timeLine">截止日期：</span><input type="text" class="timeInput" placeholder="例：2017-02-12" id="endButton"/></div>
-        <span class="timeButton" id="timeSure">确定</span>
-        <span class="timeButton" id="timeCancel">取消</span>
     </div>
 </div>
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

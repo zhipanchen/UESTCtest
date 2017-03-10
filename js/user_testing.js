@@ -10,11 +10,9 @@ $(function(){
 
     timeCount();//考试计时
 
-    
+    firstUpdatePaper(subjectid);//提交试卷按钮（提示未作答）
 
     firstUpdatePaperTip();//未作答提示框控制
-
-    firstUpdatePaper(subjectid);//提交试卷按钮（提示未作答）
 
     secondUpdatePaperTip(subjectid);//二次确认提示框控制
 

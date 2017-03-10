@@ -1,5 +1,4 @@
-<?php
-error_reporting(0);
+﻿<?php
 $useremail = $_POST['userEmail'];
 require_once './closed/user.php';
 require_once './closed/email.php';
@@ -16,4 +15,5 @@ if($user)
     $result['state']=1;
 }
 echo json_encode($result);
+//{"result":"LFJVJ2","state":1}
 ?>

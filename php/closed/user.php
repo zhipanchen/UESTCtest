@@ -32,14 +32,11 @@ class user
     public function delUserByUserId($userid)
     {
         require_once 'connect_db.php';
+        // unlink()是删除文件的php函数
+        unlink('photo/'.md5($userid).'.jpg');
         $conn = connectDb();
-        if($userid!=1)
-        {
-            $sql = "delete from x2_user where userid=$userid";
-            $conn->exec($sql);
-            // unlink()是删除文件的php函数
-            unlink('photo/'.md5($userid).'.jpg');
-        }
+        $sql = "delete from x2_user where userid=$userid";
+        $conn->exec($sql);
         $conn=null;
     }
 
@@ -148,21 +145,12 @@ class user
     {
         require_once 'connect_db.php';
         $conn = connectDb();
-        $sql = "select * from x2_user";
+        $sql = "select * from x2_user where usercode='$usercode'";
         $stmt = $conn->query($sql);
-        $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $user = $stmt->fetchAll(PDO::FETCH_ASSOC);
         $stmt=null;
         $conn=null;
-        $list = array();
-        foreach ($results as $result)
-        {
-            if(strstr($result['usercode'],$usercode))
-            {
-                $list['data'][] = $result;
-            }
-        }
-        $list['number'] = count($list['data']);
-        return $list;
+        return $user;
     }
 
     public function makeUserActiveById($userid)

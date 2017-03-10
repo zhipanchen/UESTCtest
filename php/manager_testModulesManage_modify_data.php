@@ -8,6 +8,8 @@
 
 error_reporting(0);
 
+//$args = json_decode($_POST['args']);
+
 $questionid=$_POST['questionid'];
 $args['subjectid']=$_POST['subjectid'];
 $args['questioninfo']=$_POST['questioninfo'];
@@ -15,6 +17,7 @@ $args['questionchoicea']=$_POST['questionchoicea'];
 $args['questionchoiceb']=$_POST['questionchoiceb'];
 $args['questionchoicec']=$_POST['questionchoicec'];
 $args['questionchoiced']=$_POST['questionchoiced'];
+//$args['questioncorrectanswer']='A';
 $args['questionnote']=$_POST['questionnote'];
 $args['questionscore']=$_POST['questionscore'];
 
