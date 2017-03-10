@@ -7,7 +7,6 @@
  */
 
 error_reporting(0);
-//$args = json_decode($_POST['args']);
 $args['moduleid']=$_POST['moduleid'];
 $args['datainfo']=$_POST['datainfo'];
 $args['datachoicea']=$_POST['datachoicea'];
@@ -86,5 +85,4 @@ if($note)
 }
 $dataa->modDataById($arg,$dataid);
 echo json_encode(array('result'=>'success'));
-//{"result":"success"}
 ?>

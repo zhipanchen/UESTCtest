@@ -76,7 +76,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:2.3rem;
     height:100%;
     width:70%;
     color:white;
@@ -241,6 +241,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -488,6 +496,14 @@ a{
     display:block;
     margin:0 auto;
 }
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
 /*pageFloot（end）--------------------------------------------------------------*/
 }
 @media (min-width: 1170px) and (max-width: 1440px) {
@@ -571,7 +587,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.7rem;
     height:100%;
     width:70%;
     color:white;
@@ -736,6 +752,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -817,7 +841,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.6rem;
     height:100%;
     width:70%;
     color:white;
@@ -982,6 +1006,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }

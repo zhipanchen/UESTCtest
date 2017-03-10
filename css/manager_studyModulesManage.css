@@ -3,7 +3,6 @@ html{
   font:40% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -76,7 +75,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:25px;
     height:100%;
     width:70%;
     color:white;
@@ -107,14 +106,14 @@ a{
     box-shadow: 0.5rem 0.5rem 0.5rem; 
 }
 .recordBox span{
-    font-size:2.3rem;
+    font-size:25px;
     margin-left:30px;
     display:block;
     float:left;
     margin-top:2%;
 }
 .inputStyle{
-    font-size:2.3rem;
+    font-size:25px;
     border:2px solid #000;
     border-radius:5px;
     outline:none;
@@ -505,6 +504,32 @@ a{
     border-radius: 0.5rem;
     font-size:1.7rem;
     font-family:"Microsoft Yahei";
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
+.tip{
+    height:50px;
+    width:200px;
+    border:2px solid green;
+    border-radius:5px;
+    background:#f5f5f5;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.tipSpan{
+    font-size:15px;
+    color:green;
+    display:block;
+    margin-top:15px;
+    text-indent: 50px;
 }
 }
 @media (min-width: 970px) and (max-width: 1170px) {
@@ -512,7 +537,6 @@ html{
   font:50% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -616,14 +640,14 @@ a{
     box-shadow: 0.5rem 0.5rem 0.5rem; 
 }
 .recordBox span{
-    font-size:2.3rem;
+    font-size:25px;
     margin-left:30px;
     display:block;
     float:left;
     margin-top:2%;
 }
 .inputStyle{
-    font-size:2.3rem;
+    font-size:25px;
     border:2px solid #000;
     border-radius:5px;
     outline:none;
@@ -1014,6 +1038,32 @@ a{
     border-radius: 0.5rem;
     font-size:1.7rem;
     font-family:"Microsoft Yahei";
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
+.tip{
+    height:50px;
+    width:200px;
+    border:2px solid green;
+    border-radius:5px;
+    background:#f5f5f5;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.tipSpan{
+    font-size:15px;
+    color:green;
+    display:block;
+    margin-top:15px;
+    text-indent: 50px;
 }
 }
 @media (min-width: 1170px) and (max-width: 1440px) {
@@ -1021,7 +1071,6 @@ html{
   font:62.5% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -1094,7 +1143,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.7rem;
     height:100%;
     width:70%;
     color:white;
@@ -1125,14 +1174,14 @@ a{
     box-shadow: 0.5rem 0.5rem 0.5rem; 
 }
 .recordBox span{
-    font-size:2.3rem;
+    font-size:25px;
     margin-left:30px;
     display:block;
     float:left;
     margin-top:2%;
 }
 .inputStyle{
-    font-size:2.3rem;
+    font-size:25px;
     border:2px solid #000;
     border-radius:5px;
     outline:none;
@@ -1523,6 +1572,32 @@ a{
     border-radius: 0.5rem;
     font-size:1.7rem;
     font-family:"Microsoft Yahei";
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
+.tip{
+    height:50px;
+    width:200px;
+    border:2px solid green;
+    border-radius:5px;
+    background:#f5f5f5;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.tipSpan{
+    font-size:15px;
+    color:green;
+    display:block;
+    margin-top:15px;
+    text-indent: 50px;
 }
 }
 @media (min-width: 1440px) and (max-width: 3000px) {
@@ -1530,7 +1605,6 @@ html{
   font:70% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -1603,7 +1677,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:0.6rem;
     height:100%;
     width:70%;
     color:white;
@@ -1634,14 +1708,14 @@ a{
     box-shadow: 0.5rem 0.5rem 0.5rem; 
 }
 .recordBox span{
-    font-size:2.3rem;
+    font-size:25px;
     margin-left:30px;
     display:block;
     float:left;
     margin-top:2%;
 }
 .inputStyle{
-    font-size:2.3rem;
+    font-size:25px;
     border:2px solid #000;
     border-radius:5px;
     outline:none;
@@ -2032,5 +2106,23 @@ a{
     border-radius: 0.5rem;
     font-size:1.7rem;
     font-family:"Microsoft Yahei";
+}
+.tip{
+    height:50px;
+    width:200px;
+    border:2px solid green;
+    border-radius:5px;
+    background:#f5f5f5;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.tipSpan{
+    font-size:15px;
+    color:green;
+    display:block;
+    margin-top:15px;
+    text-indent: 50px;
 }
 }

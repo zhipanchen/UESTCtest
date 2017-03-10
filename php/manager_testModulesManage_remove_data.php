@@ -5,7 +5,7 @@
  * Date: 17-1-8
  * Time: 下午6:26
  */
-
+error_reporting(0);
 $questionid = $_POST['questionid'];
 require_once './closed/question.php';
 $q = new question();
@@ -15,5 +15,4 @@ $d = new dir();
 $d->delDir('files/question/'.$question['subjectid'].'/'.$questionid);
 $q->delQuestionById($questionid);
 echo json_encode(array('result'=>'success'));
-//{"result":"success"}
 ?>

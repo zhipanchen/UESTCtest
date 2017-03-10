@@ -3,7 +3,7 @@ html{
   font:40% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
+  
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -76,7 +76,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:2.3rem;
     height:100%;
     width:70%;
     color:white;
@@ -120,12 +120,12 @@ a{
     margin:0 0 50px 0;
 }
 .testBox{
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     line-height:220px;
     text-align: center;
     background-color:#0054A3;
-    font-size:4rem;
+    font-size:25px;
     color:#FFF;
     display:block;
     border-radius:15px;
@@ -165,6 +165,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -173,7 +181,7 @@ html{
   font:50% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
+  
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -290,16 +298,17 @@ a{
     margin:0 0 50px 0;
 }
 .testBox{
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     line-height:220px;
     text-align: center;
     background-color:#0054A3;
-    font-size:4rem;
+    font-size:25px;
     color:#FFF;
     display:block;
     border-radius:15px;
     margin:0 auto;
+    word-wrap:break-word;
 }
 
 /*pagebody（end）----------------------------------------------------------------------*/
@@ -335,6 +344,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -346,7 +363,7 @@ html{
   font:62.5% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
+  
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -419,7 +436,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.7rem;
     height:100%;
     width:70%;
     color:white;
@@ -463,16 +480,17 @@ a{
     margin:0 0 50px 0;
 }
 .testBox{
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     line-height:220px;
     text-align: center;
     background-color:#0054A3;
-    font-size:4rem;
+    font-size:25px;
     color:#FFF;
     display:block;
     border-radius:15px;
     margin:0 auto;
+    word-wrap:break-word;
 }
 
 /*pagebody（end）----------------------------------------------------------------------*/
@@ -508,6 +526,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }
@@ -516,7 +542,7 @@ html{
   font:70% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
+  
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -589,7 +615,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.6rem;
     height:100%;
     width:70%;
     color:white;
@@ -633,16 +659,17 @@ a{
     margin:0 0 50px 0;
 }
 .testBox{
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     line-height:220px;
     text-align: center;
     background-color:#0054A3;
-    font-size:4rem;
+    font-size:25px;
     color:#FFF;
     display:block;
     border-radius:15px;
     margin:0 auto;
+    word-wrap:break-word;
 }
 
 /*pagebody（end）----------------------------------------------------------------------*/
@@ -678,6 +705,14 @@ a{
     height:100%;
     display:block;
     margin:0 auto;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
 }
 /*pageFloot（end）--------------------------------------------------------------*/
 }

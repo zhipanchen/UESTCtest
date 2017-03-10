@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 require_once './closed/config.php';
 require_once './closed/session.php';
 require_once './closed/user.php';
@@ -33,5 +34,6 @@ else
 {
     $message['state']=0;
 }
+
 echo json_encode($message);
 ?>

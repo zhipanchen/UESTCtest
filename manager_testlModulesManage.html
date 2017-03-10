@@ -10,6 +10,7 @@
     <!--pageHeader(star)***************************************************************************-->
     <div class="pageHeader">
         <img class="titlePicture" src="image/login_title.png"/>
+        <span class="logout">注销</span>
         <span class="managerName"></span>
         <img class="managerPicture" src="image/grade_manager.png"/>
     </div>
@@ -91,17 +92,17 @@
                     <input type="file" name="question"/>
                 </div>
                 <span class="spanStylesx">题目：</span><br/>
-                <div class="question"><textarea name="questioninfo" cols="51" rows="40" class="textarea"></textarea></div>
+                <div class="question"><textarea name="questioninfo" cols="51" rows="40" class="textarea" id="questionContent"></textarea></div>
                 <div>
                 <table class="questionTable">
                     <thead>
                         <tr><th></th><th>选项</th><th>图片</th><th><sapn>答案</sapn></th></tr> 
                     </thead>
                     <tbody>
-                        <tr><td><span class="blod">A</span></td><td><input type="text" value="" class="chooseInput" name="questionchoicea"/></td><td><input type="file" name="a"/></td><td><input type="checkbox" class="checkStyle" name="A"/></td></tr>
-                        <tr><td><span class="blod">B</span></td><td><input type="text" value="" class="chooseInput" name="questionchoiceb"/></td><td><input type="file" name="b"/></td><td><input type="checkbox" class="checkStyle" name="B"/></td></tr>
-                        <tr><td><span class="blod">C</span></td><td><input type="text" value="" class="chooseInput" name="questionchoicec"/></td><td><input type="file" name="c"/></td><td><input type="checkbox" class="checkStyle" name="C"/></td></tr>
-                        <tr><td><span class="blod">D</span></td><td><input type="text" value="" class="chooseInput" name="questionchoiced"/></td><td><input type="file" name="d"/></td><td><input type="checkbox" class="checkStyle" name="D"/></td></tr>
+                        <tr><td><span class="blod">A</span></td><td><input type="text" value="" class="chooseInput" name="questionchoicea" id="answerA"/></td><td><input type="file" name="a"/></td><td><input type="checkbox" class="checkStyle" name="A" id="a"/></td></tr>
+                        <tr><td><span class="blod">B</span></td><td><input type="text" value="" class="chooseInput" name="questionchoiceb" id="answerB"/></td><td><input type="file" name="b"/></td><td><input type="checkbox" class="checkStyle" name="B" id="b"/></td></tr>
+                        <tr><td><span class="blod">C</span></td><td><input type="text" value="" class="chooseInput" name="questionchoicec" id="answerC"/></td><td><input type="file" name="c"/></td><td><input type="checkbox" class="checkStyle" name="C" id="c"/></td></tr>
+                        <tr><td><span class="blod">D</span></td><td><input type="text" value="" class="chooseInput" name="questionchoiced" id="answerD"/></td><td><input type="file" name="d"/></td><td><input type="checkbox" class="checkStyle" name="D" id="d"/></td></tr>
                     </tbody>
                 </table>
                 </div>
@@ -110,12 +111,16 @@
                     <input type="file" name="note"/>
                 </div>
                 <span class="spanStylesx">试题解析:</span><br/>
-                <div class="answer"><textarea name="questionnote" cols="51" rows="40" class="textarea"></textarea></div>
+                <div class="answer"><textarea name="questionnote" cols="51" rows="40" class="textarea" id="questionNote"></textarea></div>
             </div>
             <input type="button" value="取消" class="boxButton1" id="submitCancel"/>
             <input type="button" value="保存" class="boxButton2" id="submitSure"/>
         </div>
         </form>
+    </div>
+    </div>
+        <div class="tip">
+        <span class="tipSpan">请选择正确答案</span>
     </div>
 </div>
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

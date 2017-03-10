@@ -3,7 +3,6 @@ html{
   font:40% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -76,7 +75,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:2.3rem;
     height:100%;
     width:70%;
     color:white;
@@ -151,6 +150,21 @@ a{
     text-align:center;
     margin-right:40px;
     margin-top:2%;
+    cursor: pointer;
+}
+.operationAction2{
+    height:35px;
+    width:140px;
+    line-height:35px;
+    font-size:1.8rem;  
+    background-color:rgb(0,84,163);
+    color:white;
+    border-radius:5px;
+    display:block;
+    float:left;
+    text-align:center;
+    margin-left:20px;
+    margin-top:2%; 
 }
 .subrecordBox{
     width:100%;
@@ -268,7 +282,7 @@ a{
 /*pageFloot（end）--------------------------------------------------------------*/
 .personInformation{
     height:150px;
-    width:330px;
+    width:380px;
     background-color:#f5f5f5;
     position:absolute;
     top:0px;
@@ -293,10 +307,10 @@ a{
     height:75%;
 }
 .wordStyle{
-   font-size:2rem;
+   font-size:15px;
 }
 .getBackButton{
-    font-size:2rem;
+    font-size:15px;
     text-indent:2rem;
     margin-top:1rem;
     color:white;
@@ -308,6 +322,71 @@ a{
     width:8rem;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
+.historytable, .historytable th, .historytable td{
+    BORDER-COLLAPSE: collapse;/*单实线表格*/
+    border:0.3rem solid black;
+    text-align: center;/*文字居中*/
+}
+.historytable{
+    width:100%;
+    border-radius: 10px;
+}
+.historytable thead tr th{
+    color:white;
+    height:5rem;
+    background-color:rgb(0,84,163);
+}
+.historytable tbody tr td a{
+    display:block;
+    width:4rem;
+    background-color:rgb(0,84,163);
+    color:white;
+    margin:0rem auto;
+}
+.box{
+    width:500px;
+    height:300px;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:white;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+.box1{
+    margin:0 auto;
+    width:450px;
+    height:250px;
+    overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.hisstoryTitle{
+    font-size:23px;
+    display:block;
+    margin:10 0 10 180px;
+}
+.getBack{
+    font-size:20px;
+    color:white;
+    height:30px;
+    width:80px;
+    display:block;
+    border-radius:4px; 
+    background: #0054A3;
+    cursor: pointer;
+    text-indent:18px;
+    margin:0 0 0 200px;
 }
 }
 @media (min-width: 970px) and (max-width: 1170px) {
@@ -315,7 +394,6 @@ html{
   font:50% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -463,6 +541,21 @@ a{
     text-align:center;
     margin-right:40px;
     margin-top:2%;
+    cursor: pointer;
+}
+.operationAction2{
+    height:35px;
+    width:140px;
+    line-height:35px;
+    font-size:1.8rem;  
+    background-color:rgb(0,84,163);
+    color:white;
+    border-radius:5px;
+    display:block;
+    float:left;
+    text-align:center;
+    margin-left:20px;
+    margin-top:2%; 
 }
 .subrecordBox{
     width:100%;
@@ -580,7 +673,7 @@ a{
 /*pageFloot（end）--------------------------------------------------------------*/
 .personInformation{
     height:150px;
-    width:330px;
+    width:380px;
     background-color:#f5f5f5;
     position:absolute;
     top:0px;
@@ -605,10 +698,10 @@ a{
     height:75%;
 }
 .wordStyle{
-   font-size:2rem;
+   font-size:15px;
 }
 .getBackButton{
-    font-size:2rem;
+    font-size:15px;
     text-indent:2rem;
     margin-top:1rem;
     color:white;
@@ -620,6 +713,71 @@ a{
     width:8rem;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
+.historytable, .historytable th, .historytable td{
+    BORDER-COLLAPSE: collapse;/*单实线表格*/
+    border:0.3rem solid black;
+    text-align: center;/*文字居中*/
+}
+.historytable{
+    width:100%;
+    border-radius: 10px;
+}
+.historytable thead tr th{
+    color:white;
+    height:5rem;
+    background-color:rgb(0,84,163);
+}
+.historytable tbody tr td a{
+    display:block;
+    width:4rem;
+    background-color:rgb(0,84,163);
+    color:white;
+    margin:0rem auto;
+}
+.box{
+    width:500px;
+    height:300px;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:white;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+.box1{
+    margin:0 auto;
+    width:450px;
+    height:250px;
+    overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.hisstoryTitle{
+    font-size:23px;
+    display:block;
+    margin:10 0 10 180px;
+}
+.getBack{
+    font-size:20px;
+    color:white;
+    height:30px;
+    width:80px;
+    display:block;
+    border-radius:4px; 
+    background: #0054A3;
+    cursor: pointer;
+    text-indent:18px;
+    margin:0 0 0 200px;
 }
 }
 @media (min-width: 1170px) and (max-width: 1440px) {
@@ -630,7 +788,6 @@ html{
   font:62.5% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -703,7 +860,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.7rem;
     height:100%;
     width:70%;
     color:white;
@@ -778,6 +935,21 @@ a{
     text-align:center;
     margin-right:40px;
     margin-top:2%;
+    cursor: pointer;
+}
+.operationAction2{
+    height:35px;
+    width:140px;
+    line-height:35px;
+    font-size:1.8rem;  
+    background-color:rgb(0,84,163);
+    color:white;
+    border-radius:5px;
+    display:block;
+    float:left;
+    text-align:center;
+    margin-left:20px;
+    margin-top:2%; 
 }
 .subrecordBox{
     width:100%;
@@ -895,7 +1067,7 @@ a{
 /*pageFloot（end）--------------------------------------------------------------*/
 .personInformation{
     height:150px;
-    width:330px;
+    width:380px;
     background-color:#f5f5f5;
     position:absolute;
     top:0px;
@@ -920,10 +1092,10 @@ a{
     height:75%;
 }
 .wordStyle{
-   font-size:2rem;
+   font-size:15px;
 }
 .getBackButton{
-    font-size:2rem;
+    font-size:15px;
     text-indent:2rem;
     margin-top:1rem;
     color:white;
@@ -935,6 +1107,71 @@ a{
     width:8rem;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
+.historytable, .historytable th, .historytable td{
+    BORDER-COLLAPSE: collapse;/*单实线表格*/
+    border:0.3rem solid black;
+    text-align: center;/*文字居中*/
+}
+.historytable{
+    width:100%;
+    border-radius: 10px;
+}
+.historytable thead tr th{
+    color:white;
+    height:5rem;
+    background-color:rgb(0,84,163);
+}
+.historytable tbody tr td a{
+    display:block;
+    width:4rem;
+    background-color:rgb(0,84,163);
+    color:white;
+    margin:0rem auto;
+}
+.box{
+    width:500px;
+    height:300px;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:white;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+.box1{
+    margin:0 auto;
+    width:450px;
+    height:250px;
+    overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.hisstoryTitle{
+    font-size:23px;
+    display:block;
+    margin:10 0 10 180px;
+}
+.getBack{
+    font-size:20px;
+    color:white;
+    height:30px;
+    width:80px;
+    display:block;
+    border-radius:4px; 
+    background: #0054A3;
+    cursor: pointer;
+    text-indent:18px;
+    margin:0 0 0 200px;
 }
 }
 @media (min-width: 1440px) and (max-width: 3000px) {
@@ -942,7 +1179,6 @@ html{
   font:70% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0 auto;
   padding:0;
@@ -1015,7 +1251,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.6rem;
     height:100%;
     width:70%;
     color:white;
@@ -1090,6 +1326,21 @@ a{
     text-align:center;
     margin-right:40px;
     margin-top:2%;
+    cursor: pointer;
+}
+.operationAction2{
+    height:35px;
+    width:140px;
+    line-height:35px;
+    font-size:1.8rem;  
+    background-color:rgb(0,84,163);
+    color:white;
+    border-radius:5px;
+    display:block;
+    float:left;
+    text-align:center;
+    margin-left:20px;
+    margin-top:2%; 
 }
 .subrecordBox{
     width:100%;
@@ -1207,7 +1458,7 @@ a{
 /*pageFloot（end）--------------------------------------------------------------*/
 .personInformation{
     height:150px;
-    width:330px;
+    width:380px;
     background-color:#f5f5f5;
     position:absolute;
     top:0px;
@@ -1232,10 +1483,10 @@ a{
     height:75%;
 }
 .wordStyle{
-   font-size:2rem;
+   font-size:15px;
 }
 .getBackButton{
-    font-size:2rem;
+    font-size:15px;
     text-indent:2rem;
     margin-top:1rem;
     color:white;
@@ -1247,5 +1498,70 @@ a{
     width:8rem;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+.logout{
+    font-size:2.2rem;
+    display:block;
+    float:right;
+    margin:1.6% 2% 0 0;
+    cursor: pointer;
+    color:#0054a3;
+}
+.historytable, .historytable th, .historytable td{
+    BORDER-COLLAPSE: collapse;/*单实线表格*/
+    border:0.3rem solid black;
+    text-align: center;/*文字居中*/
+}
+.historytable{
+    width:100%;
+    border-radius: 10px;
+}
+.historytable thead tr th{
+    color:white;
+    height:5rem;
+    background-color:rgb(0,84,163);
+}
+.historytable tbody tr td a{
+    display:block;
+    width:4rem;
+    background-color:rgb(0,84,163);
+    color:white;
+    margin:0rem auto;
+}
+.box{
+    width:500px;
+    height:300px;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:white;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+.box1{
+    margin:0 auto;
+    width:450px;
+    height:250px;
+    overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.hisstoryTitle{
+    font-size:23px;
+    display:block;
+    margin:10 0 10 180px;
+}
+.getBack{
+    font-size:20px;
+    color:white;
+    height:30px;
+    width:80px;
+    display:block;
+    border-radius:4px; 
+    background: #0054A3;
+    cursor: pointer;
+    text-indent:18px;
+    margin:0 0 0 200px;
 }
 }

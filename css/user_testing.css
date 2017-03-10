@@ -3,7 +3,6 @@ html{
   font:40% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0rem auto;
   padding:0rem;
@@ -76,7 +75,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:2.3rem;
     height:100%;
     width:70%;
     color:white;
@@ -138,6 +137,7 @@ a{
     padding-top:1%;
     float:left;
     background-color:white;
+    word-wrap:break-word ;
 }
 .boxTitle{
     width:100%;
@@ -218,7 +218,7 @@ a{
     height:200px;
     background-color:#959595;
     position:fixed;
-    top:79%;
+    top:73%;
     left:0;
     border-radius: 1rem;
     opacity: 0.9;
@@ -244,8 +244,8 @@ a{
 }
 .table{
     margin-left:0.8rem;
-    width:35%;
-    height:10%;
+    width:80%;
+    height:60px;
     float:left;
 }
 .table tbody tr td{
@@ -263,7 +263,7 @@ a{
     background-color:#262626;
     display:block;
     float:left;
-    margin-left:5rem; 
+    margin-left:8rem; 
 }
 .finishQuestion{
     height:3rem;
@@ -302,10 +302,6 @@ a{
     color:white;
     font-family:"Microsoft Yahei";
     display:block;
-    margin:0 auto;
-    position:relative;
-    top:25%;
-    left:-15%;
 }
 
 /*floatBox(end)---------------------------------------------------------------*/
@@ -443,6 +439,14 @@ a{
     width:50%;
     height:auto;
     display:block;
+}
+.overTable{
+    height:70px;
+    width:80%;
+    margin: 0 auto 10px auto;
+    overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 }
 @media (min-width: 970px) and (max-width: 1170px) {
@@ -450,7 +454,6 @@ html{
   font:50% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0rem auto;
   padding:0rem;
@@ -585,6 +588,7 @@ a{
     padding-top:1%;
     float:left;
     background-color:white;
+    word-wrap:break-word ;
 }
 .boxTitle{
     width:100%;
@@ -665,7 +669,7 @@ a{
     height:200px;
     background-color:#959595;
     position:fixed;
-    top:79%;
+    top:73%;
     left:0;
     border-radius: 1rem;
     opacity: 0.9;
@@ -691,8 +695,8 @@ a{
 }
 .table{
     margin-left:0.8rem;
-    width:35%;
-    height:10%;
+    width:80%;
+    height:60px;
     float:left;
 }
 .table tbody tr td{
@@ -710,7 +714,7 @@ a{
     background-color:#262626;
     display:block;
     float:left;
-    margin-left:5rem; 
+    margin-left:8rem; 
 }
 .finishQuestion{
     height:3rem;
@@ -749,10 +753,6 @@ a{
     color:white;
     font-family:"Microsoft Yahei";
     display:block;
-    margin:0 auto;
-    position:relative;
-    top:25%;
-    left:-15%;
 }
 
 /*floatBox(end)---------------------------------------------------------------*/
@@ -889,6 +889,14 @@ a{
     width:50%;
     height:auto;
     display:block;
+}
+.overTable{
+    width:80%;
+    height:70px;
+    margin: 0 auto;
+    overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 }
 @media (min-width: 1170px) and (max-width: 1440px) {
@@ -896,9 +904,8 @@ html{
   font:62.5% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
-  margin:0rem auto;
+  margin: 0 auto 10px auto;
   padding:0rem;
   background-color:#F5F5F5;
 }
@@ -969,7 +976,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.7rem;
     height:100%;
     width:70%;
     color:white;
@@ -1031,6 +1038,7 @@ a{
     padding-top:1%;
     float:left;
     background-color:white;
+    word-wrap:break-word ;
 }
 .boxTitle{
     width:100%;
@@ -1111,7 +1119,7 @@ a{
     height:200px;
     background-color:#959595;
     position:fixed;
-    top:79%;
+    top:73%;
     left:0;
     border-radius: 1rem;
     opacity: 0.9;
@@ -1137,8 +1145,8 @@ a{
 }
 .table{
     margin-left:0.8rem;
-    width:35%;
-    height:10%;
+    width:80%;
+    height:60px;
     float:left;
 }
 .table tbody tr td{
@@ -1156,7 +1164,7 @@ a{
     background-color:#262626;
     display:block;
     float:left;
-    margin-left:5rem; 
+    margin-left:8rem; 
 }
 .finishQuestion{
     height:3rem;
@@ -1195,10 +1203,6 @@ a{
     color:white;
     font-family:"Microsoft Yahei";
     display:block;
-    margin:0 auto;
-    position:relative;
-    top:25%;
-    left:-15%;
 }
 
 /*floatBox(end)---------------------------------------------------------------*/
@@ -1335,6 +1339,14 @@ a{
     width:50%;
     height:auto;
     display:block;
+}
+.overTable{
+    height:70px;
+    width:80%;
+    margin: 0 auto 10px auto;
+    overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 }
 @media (min-width: 1440px) and (max-width: 3000px) {
@@ -1342,7 +1354,6 @@ html{
   font:70% "Microsoft Yahei";
 }
 body{
-  min-height:700px;
   min-width:1100px;
   margin:0rem auto;
   padding:0rem;
@@ -1415,7 +1426,7 @@ a{
     float:left;
 }
 .navagationUl li a span{
-    font-size:2rem;
+    font-size:1.6rem;
     height:100%;
     width:70%;
     color:white;
@@ -1477,6 +1488,7 @@ a{
     padding-top:1%;
     float:left;
     background-color:white;
+    word-wrap:break-word ;
 }
 .boxTitle{
     width:100%;
@@ -1557,7 +1569,7 @@ a{
     height:200px;
     background-color:#959595;
     position:fixed;
-    top:79%;
+    top:73%;
     left:0;
     border-radius: 1rem;
     opacity: 0.9;
@@ -1583,8 +1595,8 @@ a{
 }
 .table{
     margin-left:0.8rem;
-    width:35%;
-    height:10%;
+    width:80%;
+    height:60px;
     float:left;
 }
 .table tbody tr td{
@@ -1602,7 +1614,7 @@ a{
     background-color:#262626;
     display:block;
     float:left;
-    margin-left:5rem; 
+    margin-left:8rem; 
 }
 .finishQuestion{
     height:3rem;
@@ -1641,10 +1653,6 @@ a{
     color:white;
     font-family:"Microsoft Yahei";
     display:block;
-    margin:0 auto;
-    position:relative;
-    top:25%;
-    left:-15%;
 }
 
 /*floatBox(end)---------------------------------------------------------------*/
@@ -1781,5 +1789,13 @@ a{
     width:50%;
     height:auto;
     display:block;
+}
+.overTable{
+    height:70px;
+    width:80%;
+    margin: 0 auto 10px auto;
+    overflow: scroll;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 }

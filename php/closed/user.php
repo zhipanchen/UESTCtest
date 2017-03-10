@@ -148,12 +148,21 @@ class user
     {
         require_once 'connect_db.php';
         $conn = connectDb();
-        $sql = "select * from x2_user where usercode='$usercode'";
+        $sql = "select * from x2_user";
         $stmt = $conn->query($sql);
-        $user = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
         $stmt=null;
         $conn=null;
-        return $user;
+        $list = array();
+        foreach ($results as $result)
+        {
+            if(strstr($result['usercode'],$usercode))
+            {
+                $list['data'][] = $result;
+            }
+        }
+        $list['number'] = count($list['data']);
+        return $list;
     }
 
     public function makeUserActiveById($userid)
