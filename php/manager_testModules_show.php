@@ -6,7 +6,7 @@ require_once './closed/user.php';
 $S=new Session();
 $u=new user();
 $session=$S->getCurrentSession();
-if(!$session){
+if(!$session||($session['sessiongroupid']!=1)){
     echo json_encode(array('result'=>'redirection'));
 }else{
     $user = $u->getUserById($session['sessionuserid']);

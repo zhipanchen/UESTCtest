@@ -186,17 +186,20 @@ function managerChangPassword(){//修改管理员密码。
                 success:function(data){
                     var result=eval(data);
                     if(result.result=='false'){
-                        $("#oldPassword").css('color','red');
+                        $("#oldPassword").val("");
+                        $("#oldPassword").attr('placeholder','当前密码输入有误');
                     }else if(result.result=='success'){
                         var button=document.getElementById("changPasswordButton");
                         button.value='修改成功';
+                        var timer=setInterval(function(){
+                            location.href="manager_center.html";
+                        },1000);
                     }
                 }
             });
         }else{
-            var input=document.getElementById("newPasswordAgain");
-            input.value='';
-            $("#newPasswordAgain").css('color','red');
+            $("#newPasswordAgain").val("");
+            $("#newPasswordAgain").attr('placeholder','新设密码和确认密码不符');
         };
     });
 }
@@ -1296,7 +1299,8 @@ function userChangPassword(){//修改学生密码。
                 success:function(data){
                     var result=eval(data);
                     if(result.result=='false'){
-                        $("#oldPassword").css('color','red');
+                        $("#oldPassword").val("");
+                        $("#oldPassword").attr("placeholder",'当前密码输入有误');
                     }else if(result.result=='success'){
                         var button=document.getElementById("changPasswordButton");
                         button.value='修改成功';
@@ -1304,9 +1308,8 @@ function userChangPassword(){//修改学生密码。
                 }
             });
         }else{
-            var input=document.getElementById("newPasswordAgain");
-            input.value='';
-            $("#newPasswordAgain").css('color','red');
+            $("#newPassword").val("");
+            $("#newPassword").attr("placeholder",'确认密码与新设密码不符');
         };
     });
 }

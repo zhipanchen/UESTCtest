@@ -18,7 +18,7 @@ $u = new user();
 $session=$ss->getCurrentSession();
 $user = $u->getUserById($session['sessionuserid']);
 
-if(!$session){
+if(!$session||($session['sessiongroupid']!=1)){
     echo json_encode(array('result'=>'redirection'));
 }else{
     $result = array();

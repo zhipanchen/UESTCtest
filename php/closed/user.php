@@ -32,11 +32,14 @@ class user
     public function delUserByUserId($userid)
     {
         require_once 'connect_db.php';
-        // unlink()是删除文件的php函数
-        unlink('photo/'.md5($userid).'.jpg');
         $conn = connectDb();
-        $sql = "delete from x2_user where userid=$userid";
-        $conn->exec($sql);
+        if($userid!=1)
+        {
+            $sql = "delete from x2_user where userid=$userid";
+            $conn->exec($sql);
+            // unlink()是删除文件的php函数
+            unlink('photo/'.md5($userid).'.jpg');
+        }
         $conn=null;
     }
 

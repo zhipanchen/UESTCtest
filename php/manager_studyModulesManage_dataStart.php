@@ -13,7 +13,7 @@ $d=new data();
 $s=new Session();
 $u=new user();
 $session=$s->getCurrentSession();
-if(!$session){
+if(!$session||($session['sessiongroupid']!=1)){
     echo json_encode(array('result'=>'redirection'));
 }else{
     $result=$d->getDataListsByModuleId($moduleid,$page,PN);

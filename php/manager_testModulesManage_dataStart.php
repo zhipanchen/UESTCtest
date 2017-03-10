@@ -12,7 +12,7 @@ $d=new question();
 $s=new Session();
 $u=new user();
 $session=$s->getCurrentSession();
-if(!$session){
+if(!$session||($session['sessiongroupid']!=1)){
     echo json_encode(array('result'=>'redirection'));
 }else{
     $result=$d->getQuestionListsBySubjectId($subjectid,$page,PN);

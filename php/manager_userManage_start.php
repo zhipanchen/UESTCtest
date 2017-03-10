@@ -14,7 +14,7 @@
     $s = new Session();
 
     $session = $s->getCurrentSession();
-    if(!$session){
+    if(!$session||($session['sessiongroupid']!=1)){
         echo json_encode(array('result'=>'redirection'));
     }else{
         $list = $u->getUserLists($page,PN);
